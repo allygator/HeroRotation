@@ -29,3 +29,14 @@ margin-left:auto
 body {
 	font-family: Metronic,"Myriad Pro",Myriad,Arial,sans-serif;
 }
+
+.heroes {
+	background-color:#2D136A;
+	width:25%
+	float:left;
+	padding-left:10px;
+	overflow:hidden;
+}
+
+.heroesholder {
+}
