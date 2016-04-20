@@ -1,5 +1,5 @@
-$(document).ready(function(){	$("#classinfo").show();
-    $(".currentweek").show();
+$(document).ready(function(){	$("#classinfo").hide();
+    $(".currentweek").hide();
 	$(".nextweek").hide()
 });
 
