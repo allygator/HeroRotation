@@ -14,7 +14,7 @@
 		<script src="heroes.js"></script>
 		<div id="header" style="text-align:center; ">
 			<div class="imageCenterer">
-				<img src="assets/logo.png">
+				<img src="assets/logo/logo.png" style="width:100px">
 			</div>
 			<h2>Heroes of the Storm&trade; Free Hero Rotation </h2>
 			<br> </br>
@@ -25,10 +25,10 @@
 				<br> </br>
 					<div class="pickweek">
 						<div class="weeks">
-						<button id="currentweekbtn" class="btn btn-default" type="button" onclick="showcurweek()">Current Week</button>
+						<button id="currentweekbtn" class="btn btn-default" type="button" onclick="showcurweek()">April 19 - April 25</button>
 						</div>
 						<div class="weeks">
-						<button id="nextweekbtn" class="btn btn-default" type="button" onclick="shownextweek()">Next Week</button>
+						<button id="nextweekbtn" class="btn btn-default" type="button" onclick="shownextweek()">April 26 - May 2</button>
 						</div>
 					</div>
 				</div>
@@ -55,13 +55,13 @@
 				<br></br>
 				<div class="heroes-rw">
 				<div class="heroes" id="kerrigan">
-				Kerrigan
+				<h5>Kerrigan</h5>
 				</div>
 				<div class="heroes" id="tyrael">
-				Tyrael
+				<h5>Tyrael</h5>
 				</div>
 				<div class="heroes" id="nazeebo">
-				Nazeebo
+				<h5>Nazeebo</h5>
 				</div>
 				</div>
 				</div>
@@ -73,26 +73,136 @@
 				<br> </br>
 				<div class="heroes-rw">
 				<div class="heroes" id="sonya">
-				Sonya
+				<h5>Sonya</h5>
 				</div>
 				<div class="heroes" id="arthas">
-				Arthas
+				<h5>Arthas</h5>
 				</div>
 				<div class="heroes" id="tassadar">
-				Tassadar
+				<h5>Tassadar</h5>
 				</div>
 				<div class="heroes" id="liming">
-				Li-Ming
+				<h5>Li-Ming</h5>
 				</div>
 				</div>
 				</div>
 				</div>
 			</div>
 			</div>
-			<div class="row" style="margin-top: 3%" id="classinfo">
-				<div class="abilities">
+			<div class="nextweek">
+			<div class="row" style="margin-top: 3%" id="heroimage">
+				<div class="col-lg-6">
+				<div class="allheroesholder">
+				<div class="heroesheader">
+				<h3> Blizzard has not announced the free hero rotation </h3>
 				</div>
-				<div class="heroicabilities">
+				<br> </br>
+				<div class="heroes-rw">
+				<div class="heroes" id="raynor">
+				</div>
+				<div class="heroes" id="muradin">
+				</div>
+				<div class="heroes" id="uther">
+				</div>
+				</div>
+				<br></br>
+				<div class="heroes-rw">
+				<div class="heroes" id="kerrigan">
+				</div>
+				<div class="heroes" id="tyrael">
+				</div>
+				<div class="heroes" id="nazeebo">
+				</div>
+				</div>
+				</div>
+				<br> </br>
+				<div class="specialheroesholder">
+				<div class="heroesheader">
+				</div>
+				<br> </br>
+				<div class="heroes-rw">
+				<div class="heroes" id="sonya">
+				</div>
+				<div class="heroes" id="arthas">
+				</div>
+				<div class="heroes" id="tassadar">
+				</div>
+				<div class="heroes" id="liming">
+				</div>
+				</div>
+				</div>
+				</div>
+			</div>
+			</div>
+			<div class="row" style="margin-top: 1%" id="classinfo">
+				<h2> Abilities</h2>
+				<div class="abilities col-lg-12">
+					<div class="standard">
+						<div class="q">
+							<div id="q_img" class="img-container">
+							</div>
+							<div class="q_ability" id="ability">
+								<div class="q_name" id="a_text">
+								</div>
+								<div class="q_desc" id="a_text">
+								</div>
+							</div>
+						</div>
+						<div class="w">
+							<div id="w_img">
+							</div>
+							<div class="w_ability" id="ability">
+								<div class="w_name" id="a_text">
+								</div>
+								<div class="w_desc" id="a_text">
+								</div>
+							</div>
+						</div>
+						<div class="e">
+							<div id="e_img">
+							</div>
+							<div class="e_ability" id="ability">
+								<div class="e_name" id="a_text">
+								</div>
+								<div class="e_desc" id="a_text">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="heroic">
+						<div class="firstheroic">
+							<div id="firstheroic_img">
+							</div>
+							<div class="firstheroic_ability" id="ability">
+								<div class="firstheroic_name" id="a_text">
+								</div>
+								<div class="firstheroic_desc" id="a_text">
+								</div>
+							</div>
+						</div>
+						<div class="secondheroic">
+							<div id="secondheroic_img">
+							</div>
+							<div class="secondheroic_ability" id="ability">
+								<div class="secondheroic_name" id="a_text">
+								</div>
+								<div class="secondheroic_desc" id="a_text">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="trait">
+						<div class="herotrait">
+						<div id="trait_img">
+							</div>
+							<div class="trait_ability" id="ability">
+								<div class="trait_name" id="a_text">
+								</div>
+								<div class="trait_desc" id="a_text">
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
