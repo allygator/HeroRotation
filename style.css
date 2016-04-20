@@ -7,11 +7,22 @@
 	color:white;
 }
 
+#classinfo {
+	background: url(assets/background/panels-bg.jpg) center no-repeat;
+	background-size: 95% 100%;
+}
+
 #header h2 {
 	text-shadow: 0 0 1rem #009cff;
 }
 
 h2, h3, h4 {
+	text-align:center;
+}
+
+.footer {
+	color:grey;
+	font-size:9px;
 	text-align:center;
 }
 
@@ -92,6 +103,7 @@ body {
 	border-radius:2px;
 	padding-left:2%;
 	padding-right:2%;
+	margin: 2px 2px 2px 2px;
 	display:flex;
 	justify-content:left;
 	position:relative;
