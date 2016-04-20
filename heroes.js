@@ -254,10 +254,10 @@ $("#zeratul").click(function(){
 
 function showcurweek() {
 	$(".nextweek").hide();
-	$(".currentweek").toggle();
+	$(".currentweek").show();
 }
 
 function shownextweek() {
 	$(".currentweek").hide();
-	$(".nextweek").toggle();
+	$(".nextweek").show();
 }
