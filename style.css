@@ -1,7 +1,7 @@
 #header {
 	size: 90%;
 	background: 
-		url(assets/trim-triangles-blue.png) bottom no-repeat,
+		url(assets/trim-triangles-blue.png) bottom no-repeat, 
 		url(assets/battlegrounds-bg.jpg) center no-repeat;
 	padding-top:2%;
 	color:white;
@@ -14,6 +14,27 @@
 #logo {
 	height: 100px;
 }
+
+.btn,.btn.focus,.btn:focus,.btn.focus,.btn:focus {
+	background-color: #2D136A;
+	border: none;
+	color:white;
+	outline:none;
+}
+
+.btn.active,.btn:active,.btn.active.focus,.btn.active:focus,.btn:active.focus,.btn:active:focus {
+	background-color: #2D136A;
+	border: 1px solid white;
+	color:white;
+	outline:none;
+}
+
+.btn:hover {
+	box-shadow: 0 0 15px #12194F;
+	color:white;
+	background-color: #2D136A;
+}
+
 
 .imageCenterer {
 	height:160px;
@@ -53,6 +74,18 @@ body {
 .allheroesholder {
 	padding-bottom:5px;
 }
+
+.pickweek {
+	display:flex;
+	justify-content:center;
+}
+
+.weeks {
+	display:inline;
+	padding-left:5%;
+	padding-right:5%;
+}
+
 
 #line {
 	background: linear-gradient(to right,#0d0119,#009cff,#0d0119) bottom;

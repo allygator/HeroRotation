@@ -9,6 +9,9 @@
 		<link href="style.css" rel="stylesheet"> 
 	</head>
 	<body style="background-color:#08000f">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="heroes.js"></script>
 		<div id="header" style="text-align:center; ">
 			<div class="imageCenterer">
 				<img src="assets/logo.png">
@@ -17,6 +20,20 @@
 			<br> </br>
 		</div>
 		<div class="container" id="main" >
+			<div class="row" id="weekselector">
+				<div class="col-lg-12">
+				<br> </br>
+					<div class="pickweek">
+						<div class="weeks">
+						<button id="currentweekbtn" class="btn btn-default" type="button" onclick="showcurweek()">Current Week</button>
+						</div>
+						<div class="weeks">
+						<button id="nextweekbtn" class="btn btn-default" type="button" onclick="shownextweek()">Next Week</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="currentweek">
 			<div class="row" style="margin-top: 3%" id="heroimage">
 				<div class="col-lg-6">
 				<div class="allheroesholder">
@@ -26,13 +43,13 @@
 				<br> </br>
 				<div class="heroes-rw">
 				<div class="heroes" id="raynor">
-				Raynor
+				<h5>Raynor</h5>
 				</div>
 				<div class="heroes" id="muradin">
-				Muradin
+				<h5>Muradin</h5>
 				</div>
 				<div class="heroes" id="uther">
-				Uther
+				<h5>Uther</h5>
 				</div>
 				</div>
 				<br></br>
@@ -71,9 +88,13 @@
 				</div>
 				</div>
 			</div>
+			</div>
+			<div class="row" style="margin-top: 3%" id="classinfo">
+				<div class="abilities">
+				</div>
+				<div class="heroicabilities">
+				</div>
+			</div>
 		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src="heroes.js"></script>
 	</body>
 				</html>
