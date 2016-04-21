@@ -114,7 +114,7 @@ body {
 	padding-right:2%;
 	margin: 2px 2px 2px 2px;
 	display:flex;
-	justify-content:left;
+	justify-content:flex-start;
 	position:relative;
 	flex:1;
 }
@@ -122,14 +122,19 @@ body {
 
 #ability {
 	display:flex;
-	justify-content:left;
-	align-items:center;
+	justify-content:flex-start;
+	align-items:flex-start;
 	align-content:center;
 	flex-direction:column;
 	margin:auto;
 }
 
 #a_text {
+	display:flex;
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:center;
+	flex-direction:column;
 	margin:auto;
 }
 
@@ -187,4 +192,8 @@ body {
 
 #d2:target {
     display: none;
+}
+
+* {
+	border: 1px solid red;
 }
