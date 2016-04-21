@@ -33,9 +33,8 @@ var raynor = {
 		["url","assets/abilities/raynor/raynor_advancedOptics.png"],
 		["abilityName","Advanced Optics"],
 		["abilityDesc","Basic Attack range is 20% further than other ranged Heroes, and you see 10% further than other Heroes."]
-
-	]
-};var muradin = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	]};var uther = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Holy Light"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Holy Radiance"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Hammer of Justice"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Divine Shield"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Divine Storm"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Eternal Devotion"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	]};var kerrigan = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	]};var tyrael = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	]};var nazeebo = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	]};var sonya = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	]};var arthas = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	]};var tassadar = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	]};var liming = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	]};
+	],	"type":"Assassin"
+};var muradin = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	],	"type":"Warrior"};var uther = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Holy Light"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Holy Radiance"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Hammer of Justice"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Divine Shield"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Divine Storm"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Eternal Devotion"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	],	"type":"Support"};var kerrigan = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	],	"type":"Assassin"};var tyrael = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	],	"type":"Warrior"};var nazeebo = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	],	"type":"Specialist"};var sonya = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	],	"type":"Warrior"};var arthas = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	],	"type":"Warrior"};var tassadar = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	],	"type":"Support"};var liming = {	"q":[		["url","assets/abilities/muradin/muradin_stormbolt.png"],		["abilityName","Storm Bolt"],		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]	],	"w":[		["url","assets/abilities/muradin/muradin_thunderclap.png"],		["abilityName","Thunder Clap"],		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]	],	"e":[		["url","assets/abilities/muradin/muradin_dwarfToss.png"],		["abilityName","Dwarf Toss"],		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]	],	"heroic1":[		["url","assets/abilities/muradin/muradin_avatar.png"],		["abilityName","Avatar"],		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]	],	"heroic2":[		["url","assets/abilities/muradin/muradin_haymaker.png"],		["abilityName","Haymaker"],		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]	],	"trait":[		["url","assets/abilities/muradin/muradin_secondWind.png"],		["abilityName","Second Wind"],		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]	],	"type":"Assassin"	};function drawAbilities() {	var content = "<img src=\""+name.trait[0][1]+"\" style=\"width:100px\">";	$("#trait_img").html("");	$("#trait_img").append(content);	content = "";	content=name.trait[1][1];	$(".trait_name").html("");	$(".trait_name").append(content+":");	content = "";	content=name.trait[2][1];	$(".trait_desc").html("");	$(".trait_desc").append(content);};
 
 function populateQ(name) {
 	var content = "<img src=\""+name.q[0][1]+"\" style=\"width:100px\" \">";
@@ -54,7 +53,7 @@ function populateQ(name) {
 
 function populateW(name) {
 	var content = "<img src=\""+name.w[0][1]+"\" style=\"width:100px\">";
-	content+="<img src=\"assets/abilities/ability-icon-frame.png\" style=\"width:100px;position:absolute;top: 0;left: 1%;z-index: 1;\">";
+	content+="<img src=\"assets/abilities/ability-icon-frame.png\" style=\"width:100px;position:absolute;top: 0;left: 2%;z-index: 1;\">";
 	$("#w_img").html("");
 	$("#w_img").append(content);
 	content = "";
@@ -69,7 +68,7 @@ function populateW(name) {
 
 function populateE(name) {
 	var content = "<img src=\""+name.e[0][1]+"\" style=\"width:100px\">";
-	content+="<img src=\"assets/abilities/ability-icon-frame.png\" style=\"width:100px;position:absolute;top: 0;left: 1%;z-index: 1;\" class=\"overlayimg\">";
+	content+="<img src=\"assets/abilities/ability-icon-frame.png\" style=\"width:100px;position:absolute;top: 0;left: 2%;z-index: 1;\" class=\"overlayimg\">";
 	$("#e_img").html("");
 	$("#e_img").append(content);
 	content = "";
@@ -84,7 +83,7 @@ function populateE(name) {
 
 function populateH1(name) {
 	var content = "<img src=\""+name.heroic1[0][1]+"\" style=\"width:100px\">";
-	content+="<img src=\"assets/abilities/ability-icon-frame.png\" style=\"width:100px;position:absolute;top: 0;left: 1%;z-index: 1;\">";
+	content+="<img src=\"assets/abilities/ability-icon-frame.png\" style=\"width:100px;position:absolute;top: 0;left: 2%;z-index: 1;\">";
 	$("#firstheroic_img").html("");
 	$("#firstheroic_img").append(content);
 	content = "";
@@ -99,7 +98,7 @@ function populateH1(name) {
 
 function populateH2(name) {
 	var content = "<img src=\""+name.heroic2[0][1]+"\" style=\"width:100px\">";
-	content+="<img src=\"assets/abilities/ability-icon-frame.png\" style=\"width:100px;position:absolute;top: 0;left: 1%;z-index: 1;\">";
+	content+="<img src=\"assets/abilities/ability-icon-frame.png\" style=\"width:100px;position:absolute;top: 0;left: 2%;z-index: 1;\">";
 	$("#secondheroic_img").html("");
 	$("#secondheroic_img").append(content);
 	content = "";
@@ -114,7 +113,7 @@ function populateH2(name) {
 
 function populateT(name) {
 	var content = "<img src=\""+name.trait[0][1]+"\" style=\"width:100px\">";
-	content+="<img src=\"assets/abilities/ability-icon-frame.png\" style=\"width:100px;position:absolute;top: 0;left: 1%;z-index: 1;\">";
+	content+="<img src=\"assets/abilities/ability-icon-frame.png\" style=\"width:100px;position:absolute;top: 0;left: 2%;z-index: 1;\">";
 	$("#trait_img").html("");
 	$("#trait_img").append(content);
 	content = "";
@@ -126,266 +125,18 @@ function populateT(name) {
 	$(".trait_desc").html("");
 	$(".trait_desc").append(content);
 };
-
-function populateAbilities(name){
+/*function populateClass(type) {	var content = "";	switch(type){		case "Specialist":			$(".class_img").css("height","200px");			$(".class_img").css("width","200px");			$(".class_img").css("background","url(assets/abilities/role-icons.png)");			$(".class_img").css("background-position", "100% 0;");			$(".class_img").html("TEST");			break;		case "Warrior":			$(".class_img").css("height","200px");			$(".class_img").css("width","200px");			$(".class_img").css("background","url(assets/abilities/role-icons.png)");			$(".class_img").css("background-position", "0 0;");			$(".class_img").html("TEST");			break;		case "Support":			$(".class_img").css("height","200px");			$(".class_img").css("width","200px");			$(".class_img").css("background","url(assets/abilities/role-icons.png)");			$(".class_img").css("background-position", "66.66% 0;");			$(".class_img").html("TEST");			break;		case "Assassin":			$(".class_img").css("background","url(assets/abilities/role-icons.png)");			console.log($(".class_img").css('background-position', '33.33% 0;'));			break;	}};*/
+function populateAbilities(name){	console.log(typeof name);
 	populateQ(name);
 	populateW(name);
 	populateE(name);
 	populateH1(name);
 	populateH2(name);
-	populateT(name);
-};
+	populateT(name);		//populateClass(name.type)
+};function background(name){	$("#classinfo").show();	$("#heroimage").css("height", "740px");	$("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/" + name + ".jpg) top no-repeat");}
 
-$("#abathur").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/abathur.jpg) right no-repeat");
-});
-
-$("#anubarak").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/anubarak.jpg) right no-repeat");
-	
-});
-
-$("#artanis").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/artanis.jpg) right no-repeat");
-});
-
-$("#arthas").click(function(){	$("#classinfo").show();	populateAbilities(arthas);
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/arthas.jpg) right no-repeat");
-});
-
-$("#azmodan").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/azmodan.jpg) right no-repeat");
-});
-
-$("#brightwing").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/brightwing.jpg) right no-repeat");
-});
-
-$("#chen").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/chen.jpg) right no-repeat");
-});
-
-$("#chogall").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/chogall.jpg) right no-repeat");
-});
-
-$("#dehaka").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/dehaka.jpg) right no-repeat");
-});
-
-$("#diablo").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/diablo.jpg) right no-repeat");
-});
-
-$("#etc").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/etc.jpg) right no-repeat");
-});
-
-$("#falstad").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/falstad.jpg) right no-repeat");
-});
-
-$("#gazlowe").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/gazlowe.jpg) right no-repeat");
-});
-
-$("#greymane").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/greymane.jpg) right no-repeat");
-});
-
-$("#illidan").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/illidan.jpg) right no-repeat");
-});
-
-$("#jaina").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/jaina.jpg) right no-repeat");
-});
-
-$("#johanna").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/johanna.jpg) right no-repeat");
-});
-
-$("#kaelthas").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/kaelthas.jpg) right no-repeat");
-});
-
-$("#kerrigan").click(function(){	$("#classinfo").show();	populateAbilities(kerrigan);
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/kerrigan.jpg) right no-repeat");
-});
-
-$("#kharazim").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/kharazim.jpg) right no-repeat");
-});
-
-$("#leoric").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/leoric.jpg) right no-repeat");
-});
-
-$("#lili").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/lili.jpg) right no-repeat");
-});
-
-$("#liming").click(function(){	$("#classinfo").show();	populateAbilities(liming);
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/liming.jpg) right no-repeat");
-});
-
-$("#ltmorales").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/ltmorales.jpg) right no-repeat");
-});
-
-$("#lunara").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/lunara.jpg) right no-repeat");
-});
-
-$("#malfurion").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/malfurion.jpg) right no-repeat");
-});
-
-$("#muradin").click(function(){	$("#classinfo").show();	populateAbilities(muradin);
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/muradin.jpg) right no-repeat");
-});
-
-$("#murky").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/murky.jpg) right no-repeat");
-});
-
-$("#nazeebo").click(function(){	$("#classinfo").show();	populateAbilities(nazeebo);
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/nazeebo.jpg) right no-repeat");
-});
-
-$("#nova").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/nova.jpg) right no-repeat");
-});
-
-$("#raynor").click(function(){	$("#classinfo").show();
-	populateAbilities(raynor);
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/raynor.jpg) right no-repeat");
-});
-
-$("#rehgar").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/rehgar.jpg) right no-repeat");
-});
-
-$("#rexxar").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/rexxar.jpg) right no-repeat");
-});
-
-$("#sgthammer").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/sgthammer.jpg) right no-repeat");
-});
-
-$("#sonya").click(function(){	$("#classinfo").show();	populateAbilities(sonya);
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/sonya.jpg) right no-repeat");
-});
-
-$("#stitches").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/stitches.jpg) right no-repeat");
-});
-
-$("#sylvanas").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/sylvanas.jpg) right no-repeat");
-});
-
-$("#tassadar").click(function(){	$("#classinfo").show();
-	populateAbilities(tassadar);	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/tassadar.jpg) right no-repeat");
-});
-
-$("#thebutcher").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/thebutcher.jpg) right no-repeat");
-});
-
-$("#thelostvikings").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/thelostvikings.jpg) right no-repeat");
-});
-
-$("#thrall").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/thrall.jpg) right no-repeat");
-});
-
-$("#tracer").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/tracer.jpg) right no-repeat");
-});
-
-$("#tychus").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/tychus.jpg) right no-repeat");
-});
-
-$("#tyrael").click(function(){	$("#classinfo").show();
-	populateAbilities(tyrael);	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/tyrael.jpg) right no-repeat");
-});
-
-$("#tyrande").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/tyrande.jpg) right no-repeat");
-});
-
-$("#uther").click(function(){	$("#classinfo").show();
-	populateAbilities(uther);	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/uther.jpg) right no-repeat");
-});
-
-$("#valla").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/valla.jpg) right no-repeat");
-});
-
-$("#xul").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/xul.jpg) right no-repeat");
-});
-
-$("#zagara").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/zagara.jpg) right no-repeat");
-});
-
-$("#zeratul").click(function(){	$("#classinfo").show();
-	$("#heroimage").css("height", "751px");
-    $("#heroimage").css("background", "url(assets/layout/trim-triangles-pink.png) bottom no-repeat, url(assets/heroes/zeratul.jpg) right no-repeat");
+$(".heroes").click(function(){	var someElementID = $(this).attr("id");	var name = eval(someElementID);	populateAbilities(name);
+	background(someElementID);
 });
 
 function showcurweek() {
@@ -397,9 +148,4 @@ function shownextweek() {
 	$(".currentweek").hide();
 	$(".nextweek").show();
 }
-
-
-/*$(document).ready(function(){
-	console.log(raynor.q[0][1]);
-});*/
 
