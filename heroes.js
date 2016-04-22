@@ -510,7 +510,7 @@ var liming = {
 		["abilityDesc","Channel a powerful beam, dealing massive damage over 2.5 seconds to enemies caught in it. The direction of the beam changes with your cursor’s position."]
 	],
 	"heroic2":[
-		["url","assets/abilities/li-ming/li-ming_waveofForce.png"],
+		["url","assets/abilities/li-ming/li-ming_waveOfForce.png"],
 		["abilityName","Wave of Force"],
 		["abilityDesc","Knock away all enemies from an area and deal heavy damage."]
 	],
