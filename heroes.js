@@ -243,12 +243,12 @@ var muradin = {
 		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]
 	],
 	"q":[
-		["url","assets/abilities/muradin/muradin_stormBolt.png"],
+		["url","assets/abilities/muradin/muradin_stormbolt.png"],
 		["abilityName","Storm Bolt"],
 		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]
 	],
 	"w":[
-		["url","assets/abilities/muradin/muradin_thunderClap.png"],
+		["url","assets/abilities/muradin/muradin_thunderclap.png"],
 		["abilityName","Thunder Clap"],
 		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]
 	],
@@ -287,7 +287,7 @@ var uther = {
 		["abilityDesc","Heal all allies in a line for a large amount of Health, dealing moderate damage to enemies."]
 	],
 	"e":[
-		["url","assets/abilities/uther/uther_hammerofJustice.png"],
+		["url","assets/abilities/uther/uther_hammerOfJustice.png"],
 		["abilityName","Hammer of Justice"],
 		["abilityDesc","Deals moderate damage and stuns the target for 1 second."]
 	],
@@ -345,7 +345,7 @@ var tyrael = {
 		["abilityDesc","While channeling, Tyrael makes all nearby allied Heroes invulnerable and unstoppable. Lasts 3 seconds.  Does not affect Tyrael."]
 	],
 	"q":[
-		["url","assets/abilities/tyrael/tyrael_elDruinsMight.png"],
+		["url","assets/abilities/tyrael/tyrael_eldruinsMight.png"],
 		["abilityName","El'Druin's Might"],
 		["abilityDesc","Deals moderate damage to enemies within target area, slowing them by 25%. Reactivating will teleport you to the blade and slow nearby enemies by 25%."]
 	],
@@ -389,7 +389,7 @@ var nazeebo = {
 		["abilityDesc","After a short delay, create a ring of Zombies surrounding the target area that deal light damage and last for 3 seconds."]
 	],
 	"e":[
-		["url","assets/abilities/nazeebo/nazeebo_plagueofToads.png"],
+		["url","assets/abilities/nazeebo/nazeebo_plagueOfToads.png"],
 		["abilityName","Plague of Toads"],
 		["abilityDesc","Create 5 Toads that deal moderate damage."]
 	],
@@ -408,7 +408,7 @@ var sonya = {
 		["abilityDesc","Leap into the air, dealing moderate damage to nearby enemies, and stunning them for 1.5 seconds."]
 	],
 	"heroic2":[
-		["url","assets/abilities/sonya/sonya_wrathoftheBerserker.png"],
+		["url","assets/abilities/sonya/sonya_wrathOfTheBerserker.png"],
 		["abilityName","Wrath of the Berserker"],
 		["abilityDesc","Gain 40% Bonus Damage on all Basic Attacks and Abilities. Stuns, slows, silences, polymorphs and roots against you have 50% reduced duration. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained while active."]
 	],
@@ -437,7 +437,7 @@ var sonya = {
 
 var arthas = {
 	"heroic1":[
-		["url","assets/abilities/arthas/arthas_armyoftheDead.png"],
+		["url","assets/abilities/arthas/arthas_armyOfTheDead.png"],
 		["abilityName","Army of the Dead"],
 		["abilityDesc","Summons Ghouls that last 15 seconds. Sacrifice Ghouls to heal for a large amount of Health."]
 	],
