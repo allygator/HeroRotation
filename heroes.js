@@ -7,9 +7,9 @@ $(document).ready(function(){
 	mapHeroes();
 });
 
-var currWeekDate = "Sept 27 - Oct 4";
+var currWeekDate = "Apr 19 - 26";
 var nextWeekDate = "Apr 26 - May 3";
-var heroesArr = ["Li Li","ETC","Jaina","Sylvanas","The Butcher","Artanis","Rehgar","Diablo","Chromie","Zeratul"];
+var heroesArr = ["Raynor","Muradin","Uther","Kerrigan","Tyrael","Nazeebo","Sonya","Arthas","Tassadar","Li-Ming"];
 
 function mapHeroes(){
 	for (i=0;i<heroesArr.length;i++){
@@ -536,5 +536,3 @@ var liming = {
 	],
 	"type":"Assassin"
 };
-
-
