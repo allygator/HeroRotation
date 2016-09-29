@@ -22,6 +22,7 @@ function mapHeroes(){
 		var value = (heroesArr[i]);
 		value = value.replace(/'/g, '');
 		value = value.replace(/-/g, '');
+        value = value.replace(' ', '');
 		value = value.toLowerCase();
 		$(selector).attr('id',value);
 	}
