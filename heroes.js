@@ -196,6 +196,7 @@ function shownextweek() {
 	$(".nextweek").show();
 }
 
+//Heroes-Arrays
 var zarya = {
 	"heroic1":[
 		["url","assets/abilities/zarya/zarya_gravitonSurge.png"],
@@ -488,34 +489,34 @@ var xul = {
 	],
 	"type":"Specialist"
 };
-var li-ming = {
+var liming = {
 	"heroic1":[
-		["url","assets/abilities/li-ming/li-ming_disintegrate.png"],
+		["url","assets/abilities/liming/liming_disintegrate.png"],
 		["abilityName","Disintegrate"],
 		["abilityDesc","Channel a powerful beam, dealing massive damage over 2.5 seconds to enemies caught in it. The direction of the beam changes with your cursor’s position."]
 	],
 	"heroic2":[
-		["url","assets/abilities/li-ming/li-ming_waveofForce.png"],
+		["url","assets/abilities/liming/liming_waveofForce.png"],
 		["abilityName","Wave of Force"],
 		["abilityDesc","Knock away all enemies from an area and deal heavy damage."]
 	],
 	"q":[
-		["url","assets/abilities/li-ming/li-ming_magicMissiles.png"],
+		["url","assets/abilities/liming/liming_magicMissiles.png"],
 		["abilityName","Magic Missiles"],
 		["abilityDesc","Fire three missiles toward an area, each dealing heavy damage to the first enemy hit."]
 	],
 	"w":[
-		["url","assets/abilities/li-ming/li-ming_arcaneOrb.png"],
+		["url","assets/abilities/liming/liming_arcaneOrb.png"],
 		["abilityName","Arcane Orb"],
 		["abilityDesc","Fire an orb that powers up as it travels, dealing heavy damage to the first enemy hit. The further the orb travels, the harder it hits—up to massive damage at maximum range."]
 	],
 	"e":[
-		["url","assets/abilities/li-ming/li-ming_teleport.png"],
+		["url","assets/abilities/liming/liming_teleport.png"],
 		["abilityName","Teleport"],
 		["abilityDesc","Teleport a short distance instantly."]
 	],
 	"trait":[
-		["url","assets/abilities/li-ming/li-ming_criticalMass.png"],
+		["url","assets/abilities/liming/liming_criticalMass.png"],
 		["abilityName","Critical Mass"],
 		["abilityDesc","Getting a Takedown will refresh the cooldown on all of your Abilities."]
 	],
@@ -701,34 +702,34 @@ var artanis = {
 	],
 	"type":"Warrior"
 };
-var lt-morales = {
+var ltmorales = {
 	"heroic1":[
-		["url","assets/abilities/lt-morales/lt-morales_stimDrone.png"],
+		["url","assets/abilities/ltmorales/ltmorales_stimDrone.png"],
 		["abilityName","Stim Drone"],
 		["abilityDesc","Grant an allied Hero 75% Attack Speed and 25% Movement Speed for 10 seconds."]
 	],
 	"heroic2":[
-		["url","assets/abilities/lt-morales/lt-morales_medivacDropship.png"],
+		["url","assets/abilities/ltmorales/ltmorales_medivacDropship.png"],
 		["abilityName","Medivac Dropship"],
 		["abilityDesc","Target a location for a Medivac transport. For up to 10 seconds before takeoff, allies can right-click to enter the Medivac."]
 	],
 	"q":[
-		["url","assets/abilities/lt-morales/lt-morales_healingBeam.png"],
+		["url","assets/abilities/ltmorales/ltmorales_healingBeam.png"],
 		["abilityName","Healing Beam"],
 		["abilityDesc","Heal an ally for a very large amount of Health each second as long as they are in range."]
 	],
 	"w":[
-		["url","assets/abilities/lt-morales/lt-morales_safeguard.png"],
+		["url","assets/abilities/ltmorales/ltmorales_safeguard.png"],
 		["abilityName","Safeguard"],
 		["abilityDesc","Grant an ally Resistant, reducing damage taken by 25% for 3 seconds."]
 	],
 	"e":[
-		["url","assets/abilities/lt-morales/lt-morales_displacementGrenade.png"],
+		["url","assets/abilities/ltmorales/ltmorales_displacementGrenade.png"],
 		["abilityName","Displacement Grenade"],
 		["abilityDesc","Fire a grenade that explodes on the first enemy hit, dealing massive damage, knocking enemies away."]
 	],
 	"trait":[
-		["url","assets/abilities/lt-morales/lt-morales_caduceusReactor.png"],
+		["url","assets/abilities/ltmorales/ltmorales_caduceusReactor.png"],
 		["abilityName","Caduceus Reactor"],
 		["abilityDesc","Regenerate 3% of your maximum Health every second after not taking damage for 4 seconds."]
 	],
@@ -833,34 +834,34 @@ var leoric = {
 	],
 	"type":"Warrior"
 };
-var the-butcher = {
+var thebutcher = {
 	"heroic1":[
-		["url","assets/abilities/the-butcher/the-butcher_lambtotheSlaughter.png"],
+		["url","assets/abilities/thebutcher/thebutcher_lambtotheSlaughter.png"],
 		["abilityName","Lamb to the Slaughter"],
 		["abilityDesc","Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals heavy damage and causes the enemy to be chained to the post for 4 seconds."]
 	],
 	"heroic2":[
-		["url","assets/abilities/the-butcher/the-butcher_furnaceBlast.png"],
+		["url","assets/abilities/thebutcher/thebutcher_furnaceBlast.png"],
 		["abilityName","Furnace Blast"],
 		["abilityDesc","After a 3 second delay, fire explodes around you dealing massive damage to enemies. Can be cast while using Full Boar."]
 	],
 	"q":[
-		["url","assets/abilities/the-butcher/the-butcher_hamstring.png"],
+		["url","assets/abilities/thebutcher/thebutcher_hamstring.png"],
 		["abilityName","Hamstring"],
 		["abilityDesc","Slams your axe down into the ground, dealing moderate damage and slowing units by 50%. This slow fades over 2 seconds."]
 	],
 	"w":[
-		["url","assets/abilities/the-butcher/the-butcher_butchersBrand.png"],
+		["url","assets/abilities/thebutcher/thebutcher_butchersBrand.png"],
 		["abilityName","Butcher's Brand"],
 		["abilityDesc","Deal moderate damage to an enemy and cause your Basic Attacks against them to heal you for 75% of the damage done for 5 seconds. Healing doubled versus Heroes."]
 	],
 	"e":[
-		["url","assets/abilities/the-butcher/the-butcher_ruthlessOnslaught.png"],
+		["url","assets/abilities/thebutcher/thebutcher_ruthlessOnslaught.png"],
 		["abilityName","Ruthless Onslaught"],
 		["abilityDesc","Charge at an enemy, becoming Unstoppable and gaining Movement Speed. If you reach the target, they are stunned for 1 second and take moderate damage."]
 	],
 	"trait":[
-		["url","assets/abilities/the-butcher/the-butcher_freshMeat.png"],
+		["url","assets/abilities/thebutcher/thebutcher_freshMeat.png"],
 		["abilityName","Fresh Meat"],
 		["abilityDesc","Nearby enemies drop Fresh meat upon death (Heroes drop triple), which you can pick up to gain 1% bonus Attack Damage. Can hold up to 25 Meat. All meat is lost on dying."]
 	],
@@ -965,34 +966,34 @@ var sylvanas = {
 	],
 	"type":"Specialist"
 };
-var the-lost-vikings = {
+var thelostvikings = {
 	"heroic1":[
-		["url","assets/abilities/the-lost-vikings/the-lost-vikings_longboatRaid!.png"],
+		["url","assets/abilities/thelostvikings/thelostvikings_longboatRaid!.png"],
 		["abilityName","Longboat Raid!"],
 		["abilityDesc","All Vikings are fierce invaders at heart. With this ability, all the Lost Vikings hop in a longboat that shoots a rapid fire cannon at nearby enemies, as well as a long-range mortar to destroy a wide swath of targets."]
 	],
 	"heroic2":[
-		["url","assets/abilities/the-lost-vikings/the-lost-vikings_playAgain!.png"],
+		["url","assets/abilities/thelostvikings/thelostvikings_playAgain!.png"],
 		["abilityName","Play Again!"],
 		["abilityDesc","The trio ensures no Viking is left behind with this heroic ability, which allows any one of them to quickly raise fallen Vikings and gather the whole group in one spot."]
 	],
 	"q":[
-		["url","assets/abilities/the-lost-vikings/the-lost-vikings_spintoWin!.png"],
+		["url","assets/abilities/thelostvikings/thelostvikings_spintoWin!.png"],
 		["abilityName","Spin to Win!"],
 		["abilityDesc","The Vikings use a highly advanced Nordic battle tactic, spinning wildly and giving every enemy caught within their whirl a solid knock on the head."]
 	],
 	"w":[
-		["url","assets/abilities/the-lost-vikings/the-lost-vikings_jump!.png"],
+		["url","assets/abilities/thelostvikings/thelostvikings_jump!.png"],
 		["abilityName","Jump!"],
 		["abilityDesc","Physical fitness is core to the Viking lifestyle. Rigorous training allows the Vikings to leap out of harm's way, avoiding all damage and bounding over enemies trying to block them in."]
 	],
 	"e":[
-		["url","assets/abilities/the-lost-vikings/the-lost-vikings_norseForce!.png"],
+		["url","assets/abilities/thelostvikings/thelostvikings_norseForce!.png"],
 		["abilityName","Norse Force!"],
 		["abilityDesc","The best thing about being a Viking is that someone always has your back. Using Norse Force, the Vikings armor up, gaining more armor when more Vikings are still standing."]
 	],
 	"trait":[
-		["url","assets/abilities/the-lost-vikings/the-lost-vikings_vikingHoard.png"],
+		["url","assets/abilities/thelostvikings/thelostvikings_vikingHoard.png"],
 		["abilityName","Viking Hoard"],
 		["abilityDesc","Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second"]
 	],
@@ -1785,34 +1786,34 @@ var raynor = {
 	],
 	"type":"Assassin"
 };
-var sgt-hammer = {
+var sgthammer = {
 	"heroic1":[
-		["url","assets/abilities/sgt-hammer/sgt-hammer_bluntForceGun.png"],
+		["url","assets/abilities/sgthammer/sgthammer_bluntForceGun.png"],
 		["abilityName","Blunt Force Gun"],
 		["abilityDesc","Fire a missile across the battlefield, dealing massive damage to enemies in its path."]
 	],
 	"heroic2":[
-		["url","assets/abilities/sgt-hammer/sgt-hammer_napalmStrike.png"],
+		["url","assets/abilities/sgthammer/sgthammer_napalmStrike.png"],
 		["abilityName","Napalm Strike"],
 		["abilityDesc","Deals moderate damage on impact and light area damage each second. Lasts for 4 seconds."]
 	],
 	"q":[
-		["url","assets/abilities/sgt-hammer/sgt-hammer_spiderMines.png"],
+		["url","assets/abilities/sgthammer/sgthammer_spiderMines.png"],
 		["abilityName","Spider Mines"],
 		["abilityDesc","Create 3 mines that deal moderate damage and slow enemies by 25% for 1.5 seconds."]
 	],
 	"w":[
-		["url","assets/abilities/sgt-hammer/sgt-hammer_concussiveBlast.png"],
+		["url","assets/abilities/sgthammer/sgthammer_concussiveBlast.png"],
 		["abilityName","Concussive Blast"],
 		["abilityDesc","Deals moderate damage and pushes enemies away."]
 	],
 	"e":[
-		["url","assets/abilities/sgt-hammer/sgt-hammer_siegeMode.png"],
+		["url","assets/abilities/sgthammer/sgthammer_siegeMode.png"],
 		["abilityName","Siege Mode"],
 		["abilityDesc","Become immobile to increase Basic Attack range by 90%, deal 25% splash damage, and deal 30% bonus damage to Minions and Structures."]
 	],
 	"trait":[
-		["url","assets/abilities/sgt-hammer/sgt-hammer_artillery.png"],
+		["url","assets/abilities/sgthammer/sgthammer_artillery.png"],
 		["abilityName","Artillery"],
 		["abilityDesc","Basic Attacks deal 20% more damage to distant enemies."]
 	],
@@ -1947,4 +1948,138 @@ var tyrael = {
 		["url","assets/abilities/tyrael/tyrael_archangelsWrath.png"],
 		["abilityName","Archangel's Wrath"],
 		["abilityDesc","When you die, become invulnerable and explode for massive damage after 3.5 seconds."]
-	
+	],
+	"type":"Warrior"
+};
+var tyrande = {
+	"heroic1":[
+		["url","assets/abilities/tyrande/tyrande_starfall.png"],
+		["abilityName","Starfall"],
+		["abilityDesc","Deal light damage each second and slow enemies by 20% in an area. Lasts 8 seconds."]
+	],
+	"heroic2":[
+		["url","assets/abilities/tyrande/tyrande_shadowstalk.png"],
+		["abilityName","Shadowstalk"],
+		["abilityDesc","Cloak you and all allied Heroes for 8 seconds. Reveal all enemy Heroes for 3 seconds."]
+	],
+	"q":[
+		["url","assets/abilities/tyrande/tyrande_lightofElune.png"],
+		["abilityName","Light of Elune"],
+		["abilityDesc","Heal yourself for a moderate amount. If cast on an ally, also heals them for a large amount of Health."]
+	],
+	"w":[
+		["url","assets/abilities/tyrande/tyrande_sentinel.png"],
+		["abilityName","Sentinel"],
+		["abilityDesc","Send an Owl that travels across the battleground revealing its path. Deals moderate damage to the first enemy Hero hit and reveals them for 5 seconds."]
+	],
+	"e":[
+		["url","assets/abilities/tyrande/tyrande_lunarFlare.png"],
+		["abilityName","Lunar Flare"],
+		["abilityDesc","After a short delay, deal heavy damage and stun enemies in the target area for 1 second."]
+	],
+	"trait":[
+		["url","assets/abilities/tyrande/tyrande_huntersMark.png"],
+		["abilityName","Hunter's Mark"],
+		["abilityDesc","Marks a target enemy, increasing all damage taken by 25% and revealing them for 4 seconds. Cannot be used on Structures."]
+	],
+	"type":"Support"
+};
+var uther = {
+	"heroic1":[
+		["url","assets/abilities/uther/uther_divineShield.png"],
+		["abilityName","Divine Shield"],
+		["abilityDesc","Make an allied Hero Invulnerable and increase their Movement Speed by 20% for 3 seconds."]
+	],
+	"heroic2":[
+		["url","assets/abilities/uther/uther_divineStorm.png"],
+		["abilityName","Divine Storm"],
+		["abilityDesc","Deal moderate damage and stun nearby enemies for 1.5 seconds."]
+	],
+	"q":[
+		["url","assets/abilities/uther/uther_holyLight.png"],
+		["abilityName","Holy Light"],
+		["abilityDesc","Heal an ally for a large amount of Health."]
+	],
+	"w":[
+		["url","assets/abilities/uther/uther_holyRadiance.png"],
+		["abilityName","Holy Radiance"],
+		["abilityDesc","Heal all allies in a line for a large amount of Health, dealing moderate damage to enemies."]
+	],
+	"e":[
+		["url","assets/abilities/uther/uther_hammerofJustice.png"],
+		["abilityName","Hammer of Justice"],
+		["abilityDesc","Deals moderate damage and stuns the target for 1 second."]
+	],
+	"trait":[
+		["url","assets/abilities/uther/uther_eternalDevotion.png"],
+		["abilityName","Eternal Devotion"],
+		["abilityDesc","Upon dying, become an Invulnerable spirit for up to 10 seconds. Your Abilities and Basic Attacks do 50% healing and damage."]
+	],
+	"type":"Support"
+};
+var valla = {
+	"heroic1":[
+		["url","assets/abilities/valla/valla_strafe.png"],
+		["abilityName","Strafe"],
+		["abilityDesc","Rapidly attack nearby visible enemies with each hit dealing light damage, prioritizing heroes over minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds."]
+	],
+	"heroic2":[
+		["url","assets/abilities/valla/valla_rainofVengeance.png"],
+		["abilityName","Rain of Vengeance"],
+		["abilityDesc","Launch 2 waves of Shadow Beasts that deal heavy damage to enemies within the target area, stunning for 0.5 seconds per wave."]
+	],
+	"q":[
+		["url","assets/abilities/valla/valla_hungeringArrow.png"],
+		["abilityName","Hungering Arrow"],
+		["abilityDesc","Fire an arrow that deals moderate damage to the first target hit, then seeks up to 2 additional enemies dealing half the initial damage. Can hit an enemy multiple times."]
+	],
+	"w":[
+		["url","assets/abilities/valla/valla_multishot.png"],
+		["abilityName","Multishot"],
+		["abilityDesc","Deal moderate damage to enemies within the target area."]
+	],
+	"e":[
+		["url","assets/abilities/valla/valla_vault.png"],
+		["abilityName","Vault"],
+		["abilityDesc","Dash to the target area."]
+	],
+	"trait":[
+		["url","assets/abilities/valla/valla_hatred.png"],
+		["abilityName","Hatred"],
+		["abilityDesc","Basic Attacks grant a stack of Hatred, up to 10. Each Hatred stack increases Basic Attack damage by 2% and Movement Speed by 1%."]
+	],
+	"type":"Assassin"
+};
+var zeratul = {
+	"heroic1":[
+		["url","assets/abilities/zeratul/zeratul_shadowAssault.png"],
+		["abilityName","Shadow Assault"],
+		["abilityDesc","Your Basic Attacks cause you to charge at enemies and have 20% increased Attack Speed. Lasts for 6 seconds."]
+	],
+	"heroic2":[
+		["url","assets/abilities/zeratul/zeratul_voidPrison.png"],
+		["abilityName","Void Prison"],
+		["abilityDesc","Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. You are not affected."]
+	],
+	"q":[
+		["url","assets/abilities/zeratul/zeratul_cleave.png"],
+		["abilityName","Cleave"],
+		["abilityDesc","Deal heavy damage to nearby enemies."]
+	],
+	"w":[
+		["url","assets/abilities/zeratul/zeratul_singularitySpike.png"],
+		["abilityName","Singularity Spike"],
+		["abilityDesc","Flings a Singularity Spike that sticks to the first enemy hit. Deals heavy damage after 1 second and slows the enemy by 40% for 3 seconds."]
+	],
+	"e":[
+		["url","assets/abilities/zeratul/zeratul_blink.png"],
+		["abilityName","Blink"],
+		["abilityDesc","Teleport to the target location. Using this Ability does not break cloak."]
+	],
+	"trait":[
+		["url","assets/abilities/zeratul/zeratul_permanentCloak.png"],
+		["abilityName","Permanent Cloak"],
+		["abilityDesc","Automatically cloak when out of combat for 3 seconds.   Taking damage, attacking, or channeling reveals you."]
+	],
+	"type":"Assassin"
+};
