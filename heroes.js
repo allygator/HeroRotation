@@ -36,7 +36,7 @@ function populateAbilities(name){
 	populateT(name);
 	
 	//populateClass(name.type)
-};
+}
 
 function drawAbilities() {
 	var content = "<img src=\""+name.trait[0][1]+"\" style=\"width:100px\">";
@@ -50,7 +50,7 @@ function drawAbilities() {
 	content=name.trait[2][1];
 	$(".trait_desc").html("");
 	$(".trait_desc").append(content);
-};
+}
 
 function populateQ(name) {
 	var content = "<img src=\""+name.q[0][1]+"\" style=\"width:100px\" \">";
@@ -65,7 +65,7 @@ function populateQ(name) {
 	content=name.q[2][1];
 	$(".q_desc").html("");
 	$(".q_desc").append(content);
-};
+}
 
 function populateW(name) {
 	var content = "<img src=\""+name.w[0][1]+"\" style=\"width:100px\">";
@@ -80,7 +80,7 @@ function populateW(name) {
 	content=name.w[2][1];
 	$(".w_desc").html("");
 	$(".w_desc").append(content);
-};
+}
 
 function populateE(name) {
 	var content = "<img src=\""+name.e[0][1]+"\" style=\"width:100px\">";
@@ -95,7 +95,7 @@ function populateE(name) {
 	content=name.e[2][1];
 	$(".e_desc").html("");
 	$(".e_desc").append(content);
-};
+}
 
 function populateH1(name) {
 	var content = "<img src=\""+name.heroic1[0][1]+"\" style=\"width:100px\">";
@@ -110,7 +110,7 @@ function populateH1(name) {
 	content=name.heroic1[2][1];
 	$(".firstheroic_desc").html("");
 	$(".firstheroic_desc").append(content);
-};
+}
 
 function populateH2(name) {
 	var content = "<img src=\""+name.heroic2[0][1]+"\" style=\"width:100px\">";
@@ -196,6 +196,7 @@ function shownextweek() {
 	$(".nextweek").show();
 }
 
+//Heroes-Arrays
 var zarya = {
 	"heroic1":[
 		["url","assets/abilities/zarya/zarya_gravitonSurge.png"],
@@ -228,7 +229,8 @@ var zarya = {
 		["abilityDesc","Each time Zarya's Personal Barrier or Shield Ally absorbs 10 damage, her Energy is increased by 1. Each point of Energy increases Zarya's damage by 2%. After 0.5 seconds, Energy decays by 3 per second."]
 	],
 	"type":"Warrior"
-};
+}
+
 var alarak = {
 	"heroic1":[
 		["url","assets/abilities/alarak/alarak_counter-Strike.png"],
@@ -488,7 +490,7 @@ var xul = {
 	],
 	"type":"Specialist"
 };
-var li-ming = {
+var liming = {
 	"heroic1":[
 		["url","assets/abilities/li-ming/li-ming_disintegrate.png"],
 		["abilityName","Disintegrate"],
@@ -552,30 +554,6 @@ var greymane = {
 		["abilityName","Curse of the Worgen"],
 		["abilityDesc","Use certain Abilities to shift between a Human and a Worgen. While Human, your Basic Attack is ranged. While Worgen, your Basic Attack is melee but deals 40% more damage."]
 	],
-		["url","assets/abilities/greymane/greymane_gofortheThroat.png"],
-		["abilityName","Go for the Throat"],
-		["abilityDesc","Leap at an enemy Hero and shapeshift into a Worgen, slashing 3 times for massive total damage. If this kills them, this ability can be used a second time within 10 seconds for free."]
-	],
-		["url","assets/abilities/greymane/greymane_markedfortheKill.png"],
-		["abilityName","Marked for the Kill"],
-		["abilityDesc","Shapeshift into a Human and fire a shot hitting the first enemy Hero for moderate damage. For 5 seconds, they are Vulnerable, taking 25% more damage, and you can re-activate this to leap at them and shapeshift into a Worgen."]
-	],
-		["url","assets/abilities/greymane/greymane_razorSwipe.png"],
-		["abilityName","Razor Swipe"],
-		["abilityDesc","Swipe towards the area in front of you and deal heavy damage."]
-	],
-		["url","assets/abilities/greymane/greymane_innerBeast.png"],
-		["abilityName","Inner Beast"],
-		["abilityDesc","Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration."]
-	],
-		["url","assets/abilities/greymane/greymane_disengage.png"],
-		["abilityName","Disengage"],
-		["abilityDesc","Roll away and shapeshift into a Human."]
-	],
-		["url","assets/abilities/greymane/greymane_curseoftheWorgen.png"],
-		["abilityName","Curse of the Worgen"],
-		["abilityDesc","Use certain Abilities to shift between a Human and a Worgen. While Human, your Basic Attack is ranged. While Worgen, your Basic Attack is melee but deals 40% more damage."]
-	],
 	"type":"Assassin"
 };
 var lunara = {
@@ -611,7 +589,7 @@ var lunara = {
 	],
 	"type":"Assassin"
 };
-var chogall = {
+/*var chogall = {
 	"heroic1":[
 		["url","assets/abilities/chogall/chogall_hammerofTwilight.png"],
 		["abilityName","Hammer of Twilight"],
@@ -667,7 +645,7 @@ var chogall = {
 		["abilityDesc","Your head is attached to Cho."]
 	],
 	"type":"Assassin"
-};
+};*/
 var artanis = {
 	"heroic1":[
 		["url","assets/abilities/artanis/artanis_suppressionPulse.png"],
@@ -701,7 +679,7 @@ var artanis = {
 	],
 	"type":"Warrior"
 };
-var lt-morales = {
+var ltmorales = {
 	"heroic1":[
 		["url","assets/abilities/lt-morales/lt-morales_stimDrone.png"],
 		["abilityName","Stim Drone"],
@@ -833,7 +811,7 @@ var leoric = {
 	],
 	"type":"Warrior"
 };
-var the-butcher = {
+var thebutcher = {
 	"heroic1":[
 		["url","assets/abilities/the-butcher/the-butcher_lambtotheSlaughter.png"],
 		["abilityName","Lamb to the Slaughter"],
@@ -965,7 +943,7 @@ var sylvanas = {
 	],
 	"type":"Specialist"
 };
-var the-lost-vikings = {
+var thelostvikings = {
 	"heroic1":[
 		["url","assets/abilities/the-lost-vikings/the-lost-vikings_longboatRaid!.png"],
 		["abilityName","Longboat Raid!"],
@@ -1785,7 +1763,7 @@ var raynor = {
 	],
 	"type":"Assassin"
 };
-var sgt-hammer = {
+var sgthammer = {
 	"heroic1":[
 		["url","assets/abilities/sgt-hammer/sgt-hammer_bluntForceGun.png"],
 		["abilityName","Blunt Force Gun"],
@@ -1947,4 +1925,138 @@ var tyrael = {
 		["url","assets/abilities/tyrael/tyrael_archangelsWrath.png"],
 		["abilityName","Archangel's Wrath"],
 		["abilityDesc","When you die, become invulnerable and explode for massive damage after 3.5 seconds."]
-	
+	],
+	"type":"Warrior"
+};
+var tyrande = {
+	"heroic1":[
+		["url","assets/abilities/tyrande/tyrande_starfall.png"],
+		["abilityName","Starfall"],
+		["abilityDesc","Deal light damage each second and slow enemies by 20% in an area. Lasts 8 seconds."]
+	],
+	"heroic2":[
+		["url","assets/abilities/tyrande/tyrande_shadowstalk.png"],
+		["abilityName","Shadowstalk"],
+		["abilityDesc","Cloak you and all allied Heroes for 8 seconds. Reveal all enemy Heroes for 3 seconds."]
+	],
+	"q":[
+		["url","assets/abilities/tyrande/tyrande_lightofElune.png"],
+		["abilityName","Light of Elune"],
+		["abilityDesc","Heal yourself for a moderate amount. If cast on an ally, also heals them for a large amount of Health."]
+	],
+	"w":[
+		["url","assets/abilities/tyrande/tyrande_sentinel.png"],
+		["abilityName","Sentinel"],
+		["abilityDesc","Send an Owl that travels across the battleground revealing its path. Deals moderate damage to the first enemy Hero hit and reveals them for 5 seconds."]
+	],
+	"e":[
+		["url","assets/abilities/tyrande/tyrande_lunarFlare.png"],
+		["abilityName","Lunar Flare"],
+		["abilityDesc","After a short delay, deal heavy damage and stun enemies in the target area for 1 second."]
+	],
+	"trait":[
+		["url","assets/abilities/tyrande/tyrande_huntersMark.png"],
+		["abilityName","Hunter's Mark"],
+		["abilityDesc","Marks a target enemy, increasing all damage taken by 25% and revealing them for 4 seconds. Cannot be used on Structures."]
+	],
+	"type":"Support"
+};
+var uther = {
+	"heroic1":[
+		["url","assets/abilities/uther/uther_divineShield.png"],
+		["abilityName","Divine Shield"],
+		["abilityDesc","Make an allied Hero Invulnerable and increase their Movement Speed by 20% for 3 seconds."]
+	],
+	"heroic2":[
+		["url","assets/abilities/uther/uther_divineStorm.png"],
+		["abilityName","Divine Storm"],
+		["abilityDesc","Deal moderate damage and stun nearby enemies for 1.5 seconds."]
+	],
+	"q":[
+		["url","assets/abilities/uther/uther_holyLight.png"],
+		["abilityName","Holy Light"],
+		["abilityDesc","Heal an ally for a large amount of Health."]
+	],
+	"w":[
+		["url","assets/abilities/uther/uther_holyRadiance.png"],
+		["abilityName","Holy Radiance"],
+		["abilityDesc","Heal all allies in a line for a large amount of Health, dealing moderate damage to enemies."]
+	],
+	"e":[
+		["url","assets/abilities/uther/uther_hammerofJustice.png"],
+		["abilityName","Hammer of Justice"],
+		["abilityDesc","Deals moderate damage and stuns the target for 1 second."]
+	],
+	"trait":[
+		["url","assets/abilities/uther/uther_eternalDevotion.png"],
+		["abilityName","Eternal Devotion"],
+		["abilityDesc","Upon dying, become an Invulnerable spirit for up to 10 seconds. Your Abilities and Basic Attacks do 50% healing and damage."]
+	],
+	"type":"Support"
+};
+var valla = {
+	"heroic1":[
+		["url","assets/abilities/valla/valla_strafe.png"],
+		["abilityName","Strafe"],
+		["abilityDesc","Rapidly attack nearby visible enemies with each hit dealing light damage, prioritizing heroes over minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds."]
+	],
+	"heroic2":[
+		["url","assets/abilities/valla/valla_rainofVengeance.png"],
+		["abilityName","Rain of Vengeance"],
+		["abilityDesc","Launch 2 waves of Shadow Beasts that deal heavy damage to enemies within the target area, stunning for 0.5 seconds per wave."]
+	],
+	"q":[
+		["url","assets/abilities/valla/valla_hungeringArrow.png"],
+		["abilityName","Hungering Arrow"],
+		["abilityDesc","Fire an arrow that deals moderate damage to the first target hit, then seeks up to 2 additional enemies dealing half the initial damage. Can hit an enemy multiple times."]
+	],
+	"w":[
+		["url","assets/abilities/valla/valla_multishot.png"],
+		["abilityName","Multishot"],
+		["abilityDesc","Deal moderate damage to enemies within the target area."]
+	],
+	"e":[
+		["url","assets/abilities/valla/valla_vault.png"],
+		["abilityName","Vault"],
+		["abilityDesc","Dash to the target area."]
+	],
+	"trait":[
+		["url","assets/abilities/valla/valla_hatred.png"],
+		["abilityName","Hatred"],
+		["abilityDesc","Basic Attacks grant a stack of Hatred, up to 10. Each Hatred stack increases Basic Attack damage by 2% and Movement Speed by 1%."]
+	],
+	"type":"Assassin"
+};
+var zeratul = {
+	"heroic1":[
+		["url","assets/abilities/zeratul/zeratul_shadowAssault.png"],
+		["abilityName","Shadow Assault"],
+		["abilityDesc","Your Basic Attacks cause you to charge at enemies and have 20% increased Attack Speed. Lasts for 6 seconds."]
+	],
+	"heroic2":[
+		["url","assets/abilities/zeratul/zeratul_voidPrison.png"],
+		["abilityName","Void Prison"],
+		["abilityDesc","Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. You are not affected."]
+	],
+	"q":[
+		["url","assets/abilities/zeratul/zeratul_cleave.png"],
+		["abilityName","Cleave"],
+		["abilityDesc","Deal heavy damage to nearby enemies."]
+	],
+	"w":[
+		["url","assets/abilities/zeratul/zeratul_singularitySpike.png"],
+		["abilityName","Singularity Spike"],
+		["abilityDesc","Flings a Singularity Spike that sticks to the first enemy hit. Deals heavy damage after 1 second and slows the enemy by 40% for 3 seconds."]
+	],
+	"e":[
+		["url","assets/abilities/zeratul/zeratul_blink.png"],
+		["abilityName","Blink"],
+		["abilityDesc","Teleport to the target location. Using this Ability does not break cloak."]
+	],
+	"trait":[
+		["url","assets/abilities/zeratul/zeratul_permanentCloak.png"],
+		["abilityName","Permanent Cloak"],
+		["abilityDesc","Automatically cloak when out of combat for 3 seconds.   Taking damage, attacking, or channeling reveals you."]
+	],
+	"type":"Assassin"
+};
