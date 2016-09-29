@@ -1,4 +1,4 @@
-$(document).ready(function ( ) {
+$(document).ready(function(){
 	$("#classinfo").hide();
 	$(".currentweek").hide();
 	$(".nextweek").hide();
@@ -196,6 +196,7 @@ function shownextweek() {
 	$(".nextweek").show();
 }
 
+<<<<<<< HEAD
 //Heroes-Arrays
 var zarya = {
 	"heroic1":[
@@ -1490,104 +1491,111 @@ var etc = {
 	"type":"Warrior"
 };
 var falstad = {
+=======
+
+var raynor = {
+>>>>>>> parent of 164ebe2... Added jar and bash files, updated heroes.js
 	"heroic1":[
-		["url","assets/abilities/falstad/falstad_hinterlandBlast.png"],
-		["abilityName","Hinterland Blast"],
-		["abilityDesc","After a short delay, deals massive damage to enemies within a long line."]
+		["url","assets/abilities/raynor/raynor_hyperion.png"],
+		["abilityName","Hyperion"],
+		["abilityDesc","Order the Hyperion to make a strafing run dealing light damage each second, hitting up to 4 enemies. Also occasionally fires its Yamato Cannon on Structures for massive damage. Lasts 12 seconds."]
 	],
 	"heroic2":[
-		["url","assets/abilities/falstad/falstad_mightyGust.png"],
-		["abilityName","Mighty Gust"],
-		["abilityDesc","Push enemies away and slow their Movement Speed by 60%, decaying over 3 seconds."]
+		["url","assets/abilities/raynor/raynor_raynorsRaiders.png"],
+		["abilityName","Raynor's Raiders"],
+		["abilityDesc","Summons two cloaked Banshees that attack a targeted enemy. Each Banshee deals light damage. Last 22 seconds."]
 	],
 	"q":[
-		["url","assets/abilities/falstad/falstad_hammerang.png"],
-		["abilityName","Hammerang"],
-		["abilityDesc","Throws out a Hammer that returns to you, dealing moderate damage and slowing enemies by 25% for 2 seconds."]
+		["url","assets/abilities/raynor/raynor_penetratingRound.png"],
+		["abilityName","Penetrating Round"],
+		["abilityDesc","Deals heavy damage and knocks enemies back."]
 	],
 	"w":[
-		["url","assets/abilities/falstad/falstad_lightningRod.png"],
-		["abilityName","Lightning Rod"],
-		["abilityDesc","Deals moderate damage to an enemy and additional light damage each second for 4 seconds if you remain close to the target."]
+		["url","assets/abilities/raynor/raynor_inspire.png"],
+		["abilityName","Inspire"],
+		["abilityDesc","Gain 25% bonus Attack Speed for 8 seconds. Nearby allies gain half of the bonus."]
 	],
 	"e":[
-		["url","assets/abilities/falstad/falstad_barrelRoll.png"],
-		["abilityName","Barrel Roll"],
-		["abilityDesc","Dashes forward and grants a strong Shield for 2 seconds."]
+		["url","assets/abilities/raynor/raynor_adrenalineRush.png"],
+		["abilityName","Adrenaline Rush"],
+		["abilityDesc","Automatically activates to heal for a large amount when you are below 30% Health."]
 	],
 	"trait":[
-		["url","assets/abilities/falstad/falstad_tailwind.png"],
-		["abilityName","Tailwind"],
-		["abilityDesc","Gain 20% increased Movement Speed after not taking damage for 6 seconds."]
+		["url","assets/abilities/raynor/raynor_advancedOptics.png"],
+		["abilityName","Advanced Optics"],
+		["abilityDesc","Basic Attack range is 20% further than other ranged Heroes, and you see 10% further than other Heroes."]
 	],
 	"type":"Assassin"
 };
-var gazlowe = {
+
+var muradin = {
 	"heroic1":[
-		["url","assets/abilities/gazlowe/gazlowe_robo-Goblin.png"],
-		["abilityName","Robo-Goblin"],
-		["abilityDesc","Basic Attacks deal an additional 150% damage to Minions, Mercenaries, and Structures."]
+		["url","assets/abilities/muradin/muradin_avatar.png"],
+		["abilityName","Avatar"],
+		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]
 	],
 	"heroic2":[
-		["url","assets/abilities/gazlowe/gazlowe_grav-O-Bomb3000.png"],
-		["abilityName","Grav-O-Bomb 3000"],
-		["abilityDesc","After a short delay, pulls enemies towards the center of the target area and deals heavy damage."]
+		["url","assets/abilities/muradin/muradin_haymaker.png"],
+		["abilityName","Haymaker"],
+		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]
 	],
 	"q":[
-		["url","assets/abilities/gazlowe/gazlowe_rock-It!Turret.png"],
-		["abilityName","Rock-It! Turret"],
-		["abilityDesc","Creates a turret that deals moderate damage. Lasts for 30 seconds."]
+		["url","assets/abilities/muradin/muradin_stormbolt.png"],
+		["abilityName","Storm Bolt"],
+		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]
 	],
 	"w":[
-		["url","assets/abilities/gazlowe/gazlowe_dethLazor.png"],
-		["abilityName","Deth Lazor"],
-		["abilityDesc","Charged attack that deals moderate to heavy damage to enemies in a line. Damage and range increase the longer the ability is charged up."]
+		["url","assets/abilities/muradin/muradin_thunderclap.png"],
+		["abilityName","Thunder Clap"],
+		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]
 	],
 	"e":[
-		["url","assets/abilities/gazlowe/gazlowe_xplodiumCharge.png"],
-		["abilityName","Xplodium Charge"],
-		["abilityDesc","Places a bomb that deals moderate damage to enemies within target area after 2.5 seconds, stunning them for 2 seconds."]
+		["url","assets/abilities/muradin/muradin_dwarfToss.png"],
+		["abilityName","Dwarf Toss"],
+		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]
 	],
 	"trait":[
-		["url","assets/abilities/gazlowe/gazlowe_salvager.png"],
-		["abilityName","Salvager"],
-		["abilityDesc","Destroyed enemy Structures and your Rock-it! Turrets drop scrap. Collecting scrap restores a moderate amount of Mana and causes your Abilities to cooldown twice as fast for 3 seconds.  Activate Salvager to dismantle a target Rock-it! Turret and turn it into scrap."]
+		["url","assets/abilities/muradin/muradin_secondWind.png"],
+		["abilityName","Second Wind"],
+		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]
 	],
-	"type":"Specialist"
+	"type":"Warrior"
 };
-var illidan = {
+
+var uther = {
 	"heroic1":[
-		["url","assets/abilities/illidan/illidan_metamorphosis.png"],
-		["abilityName","Metamorphosis"],
-		["abilityDesc","Transform into demon form at the target location, dealing massive damage in the area. Gain a large amount of temporary max Health for each Hero hit and 20% increased Attack Speed. Lasts for 18 seconds."]
+		["url","assets/abilities/uther/uther_divineShield.png"],
+		["abilityName","Divine Shield"],
+		["abilityDesc","Make an allied Hero Invulnerable and increase their Movement Speed by 20% for 3 seconds."]
 	],
 	"heroic2":[
-		["url","assets/abilities/illidan/illidan_theHunt.png"],
-		["abilityName","The Hunt"],
-		["abilityDesc","Charge to target unit, dealing heavy damage on impact and stunning for 1 second."]
+		["url","assets/abilities/uther/uther_divineStorm.png"],
+		["abilityName","Divine Storm"],
+		["abilityDesc","Deal moderate damage and stun nearby enemies for 1.5 seconds."]
 	],
 	"q":[
-		["url","assets/abilities/illidan/illidan_dive.png"],
-		["abilityName","Dive"],
-		["abilityDesc","Dive at the target, dealing moderate damage and flipping over them."]
+		["url","assets/abilities/uther/uther_holyLight.png"],
+		["abilityName","Holy Light"],
+		["abilityDesc","Heal an ally for a large amount of Health."]
 	],
 	"w":[
-		["url","assets/abilities/illidan/illidan_sweepingStrike.png"],
-		["abilityName","Sweeping Strike"],
-		["abilityDesc","Dash towards target point, dealing moderate damage to enemies along the way. If you hit an enemy, Basic Attacks do 35% more damage for 4 seconds."]
+		["url","assets/abilities/uther/uther_holyRadiance.png"],
+		["abilityName","Holy Radiance"],
+		["abilityDesc","Heal all allies in a line for a large amount of Health, dealing moderate damage to enemies."]
 	],
 	"e":[
-		["url","assets/abilities/illidan/illidan_evasion.png"],
-		["abilityName","Evasion"],
-		["abilityDesc","Evade enemy Basic Attacks for 2 seconds."]
+		["url","assets/abilities/uther/uther_hammerOfJustice.png"],
+		["abilityName","Hammer of Justice"],
+		["abilityDesc","Deals moderate damage and stuns the target for 1 second."]
 	],
 	"trait":[
-		["url","assets/abilities/illidan/illidan_betrayersThirst.png"],
-		["abilityName","Betrayer's Thirst"],
-		["abilityDesc","Basic Attacks heal for 20% of damage dealt and reduce your Ability cooldowns by 1 second."]
+		["url","assets/abilities/uther/uther_eternalDevotion.png"],
+		["abilityName","Eternal Devotion"],
+		["abilityDesc","Upon dying, become an Invulnerable spirit for up to 10 seconds. Your Abilities and Basic Attacks do 50% healing and damage."]
 	],
-	"type":"Assassin"
+	"type":"Support"
 };
+
 var kerrigan = {
 	"heroic1":[
 		["url","assets/abilities/kerrigan/kerrigan_maelstrom.png"],
@@ -1621,72 +1629,41 @@ var kerrigan = {
 	],
 	"type":"Assassin"
 };
-var malfurion = {
+
+var tyrael = {
 	"heroic1":[
-		["url","assets/abilities/malfurion/malfurion_tranquility.png"],
-		["abilityName","Tranquility"],
-		["abilityDesc","Heals a moderate amount of Health each second to nearby allies over 10 seconds."]
+		["url","assets/abilities/tyrael/tyrael_judgment.png"],
+		["abilityName","Judgment"],
+		["abilityDesc","Charge the target, dealing moderate damage and stunning them for 1.5 seconds. Nearby enemies are knocked away and take moderate damage."]
 	],
 	"heroic2":[
-		["url","assets/abilities/malfurion/malfurion_twilightDream.png"],
-		["abilityName","Twilight Dream"],
-		["abilityDesc","After a short delay, deal massive damage in a large area around you, silencing enemies for 3 seconds."]
+		["url","assets/abilities/tyrael/tyrael_sanctification.png"],
+		["abilityName","Sanctification"],
+		["abilityDesc","While channeling, Tyrael makes all nearby allied Heroes invulnerable and unstoppable. Lasts 3 seconds.  Does not affect Tyrael."]
 	],
 	"q":[
-		["url","assets/abilities/malfurion/malfurion_regrowth.png"],
-		["abilityName","Regrowth"],
-		["abilityDesc","Heal target ally for a moderate amount of Health instantly and an additional large amount of Health over 10 seconds."]
+		["url","assets/abilities/tyrael/tyrael_eldruinsMight.png"],
+		["abilityName","El'Druin's Might"],
+		["abilityDesc","Deals moderate damage to enemies within target area, slowing them by 25%. Reactivating will teleport you to the blade and slow nearby enemies by 25%."]
 	],
 	"w":[
-		["url","assets/abilities/malfurion/malfurion_moonfire.png"],
-		["abilityName","Moonfire"],
-		["abilityDesc","Deals light damage to enemies within target area and reveals them for 2 seconds."]
+		["url","assets/abilities/tyrael/tyrael_righteousness.png"],
+		["abilityName","Righteousness"],
+		["abilityDesc","Grants massive Shields to you and strong Shields to nearby allies. Lasts 4 seconds."]
 	],
 	"e":[
-		["url","assets/abilities/malfurion/malfurion_entanglingRoots.png"],
-		["abilityName","Entangling Roots"],
-		["abilityDesc","Root enemies within the target area for 1.5 seconds, and deals light damage over the duration. Affected area grows over 3 seconds."]
+		["url","assets/abilities/tyrael/tyrael_smite.png"],
+		["abilityName","Smite"],
+		["abilityDesc","Rake target area for moderate damage. Allies moving through the targeted area gain 25% increased Movement Speed for 2 seconds."]
 	],
 	"trait":[
-		["url","assets/abilities/malfurion/malfurion_innervate.png"],
-		["abilityName","Innervate"],
-		["abilityDesc","Grant target allied Hero a large amount of Mana over 10 seconds."]
-	],
-	"type":"Support"
-};
-var muradin = {
-	"heroic1":[
-		["url","assets/abilities/muradin/muradin_avatar.png"],
-		["abilityName","Avatar"],
-		["abilityDesc","Transform for 20 seconds, gaining a massive amount of Health and causing your Basic Attacks to stun enemies."]
-	],
-	"heroic2":[
-		["url","assets/abilities/muradin/muradin_haymaker.png"],
-		["abilityName","Haymaker"],
-		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]
-	],
-	"q":[
-		["url","assets/abilities/muradin/muradin_stormBolt.png"],
-		["abilityName","Storm Bolt"],
-		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]
-	],
-	"w":[
-		["url","assets/abilities/muradin/muradin_thunderClap.png"],
-		["abilityName","Thunder Clap"],
-		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]
-	],
-	"e":[
-		["url","assets/abilities/muradin/muradin_dwarfToss.png"],
-		["abilityName","Dwarf Toss"],
-		["abilityDesc","Leap to target location, dealing moderate damage to enemies on landing."]
-	],
-	"trait":[
-		["url","assets/abilities/muradin/muradin_secondWind.png"],
-		["abilityName","Second Wind"],
-		["abilityDesc","Restore a moderate amount of Health each second when you have not taken damage for 4 seconds. When below 40% Health, Health restored per second doubles."]
+		["url","assets/abilities/tyrael/tyrael_archangelsWrath.png"],
+		["abilityName","Archangel's Wrath"],
+		["abilityDesc","When you die, become invulnerable and explode for massive damage after 3.5 seconds."]
 	],
 	"type":"Warrior"
 };
+
 var nazeebo = {
 	"heroic1":[
 		["url","assets/abilities/nazeebo/nazeebo_gargantuan.png"],
@@ -1709,7 +1686,7 @@ var nazeebo = {
 		["abilityDesc","After a short delay, create a ring of Zombies surrounding the target area that deal light damage and last for 3 seconds."]
 	],
 	"e":[
-		["url","assets/abilities/nazeebo/nazeebo_plagueofToads.png"],
+		["url","assets/abilities/nazeebo/nazeebo_plagueOfToads.png"],
 		["abilityName","Plague of Toads"],
 		["abilityDesc","Create 5 Toads that deal moderate damage."]
 	],
@@ -1720,6 +1697,7 @@ var nazeebo = {
 	],
 	"type":"Specialist"
 };
+<<<<<<< HEAD
 var nova = {
 	"heroic1":[
 		["url","assets/abilities/nova/nova_tripleTap.png"],
@@ -1819,6 +1797,9 @@ var sgthammer = {
 	],
 	"type":"Specialist"
 };
+=======
+
+>>>>>>> parent of 164ebe2... Added jar and bash files, updated heroes.js
 var sonya = {
 	"heroic1":[
 		["url","assets/abilities/sonya/sonya_leap.png"],
@@ -1826,7 +1807,7 @@ var sonya = {
 		["abilityDesc","Leap into the air, dealing moderate damage to nearby enemies, and stunning them for 1.5 seconds."]
 	],
 	"heroic2":[
-		["url","assets/abilities/sonya/sonya_wrathoftheBerserker.png"],
+		["url","assets/abilities/sonya/sonya_wrathOfTheBerserker.png"],
 		["abilityName","Wrath of the Berserker"],
 		["abilityDesc","Gain 40% Bonus Damage on all Basic Attacks and Abilities. Stuns, slows, silences, polymorphs and roots against you have 50% reduced duration. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained while active."]
 	],
@@ -1852,39 +1833,41 @@ var sonya = {
 	],
 	"type":"Warrior"
 };
-var stitches = {
+
+var arthas = {
 	"heroic1":[
-		["url","assets/abilities/stitches/stitches_putridBile.png"],
-		["abilityName","Putrid Bile"],
-		["abilityDesc","Emit bile that deals light damage each second to enemies within, slowing them by 35%. You gain 20% Movement Speed while emitting bile. Lasts 8 seconds."]
+		["url","assets/abilities/arthas/arthas_armyOfTheDead.png"],
+		["abilityName","Army of the Dead"],
+		["abilityDesc","Summons Ghouls that last 15 seconds. Sacrifice Ghouls to heal for a large amount of Health."]
 	],
 	"heroic2":[
-		["url","assets/abilities/stitches/stitches_gorge.png"],
-		["abilityName","Gorge"],
-		["abilityDesc","Consume an enemy Hero, trapping them for 3.5 seconds. When Gorge ends, the enemy Hero takes heavy damage. The trapped Hero cannot move or act and doesn't take damage from other sources. Stitches' Movement Speed is reduced by 15% while an enemy is Gorged.  Cannot be used on massive Heroes."]
+		["url","assets/abilities/arthas/arthas_summonSindragosa.png"],
+		["abilityName","Summon Sindragosa"],
+		["abilityDesc","Deals heavy damage, slows enemy Heroes, and freezes Minions for 10 seconds and Structures for 20 seconds."]
 	],
 	"q":[
-		["url","assets/abilities/stitches/stitches_hook.png"],
-		["abilityName","Hook"],
-		["abilityDesc","Pull the first enemy hit towards you, dealing moderate damage."]
+		["url","assets/abilities/arthas/arthas_deathCoil.png"],
+		["abilityName","Death Coil"],
+		["abilityDesc","Deals heavy damage to target enemy.  Can be self-cast to heal for a large amount of Health."]
 	],
 	"w":[
-		["url","assets/abilities/stitches/stitches_slam.png"],
-		["abilityName","Slam"],
-		["abilityDesc","Deal moderate damage to enemies within the target area."]
+		["url","assets/abilities/arthas/arthas_howlingBlast.png"],
+		["abilityName","Howling Blast"],
+		["abilityDesc","Root enemies within the target area for 1.5 seconds and deals moderate damage."]
 	],
 	"e":[
-		["url","assets/abilities/stitches/stitches_devour.png"],
-		["abilityName","Devour"],
-		["abilityDesc","Deal massive damage to Minions or moderate damage to Heroes. Restores 20% of your maximum Health."]
+		["url","assets/abilities/arthas/arthas_frozenTempest.png"],
+		["abilityName","Frozen Tempest"],
+		["abilityDesc","Deals moderate damage each second to nearby enemies. Slows enemy Move Speed by 6% per second, stacking up to 30%."]
 	],
 	"trait":[
-		["url","assets/abilities/stitches/stitches_vileGas.png"],
-		["abilityName","Vile Gas"],
-		["abilityDesc","When damaged, Stitches emits a gas cloud that persists for 4 seconds. Enemies who enter it are poisoned, taking light damage each second for 3 seconds."]
+		["url","assets/abilities/arthas/arthas_frostmourneHungers.png"],
+		["abilityName","Frostmourne Hungers"],
+		["abilityDesc","Activate to make your next Basic Attack strike immediately, do 100% increased damage, and restore a moderate amount of Mana."]
 	],
 	"type":"Warrior"
 };
+
 var tassadar = {
 	"heroic1":[
 		["url","assets/abilities/tassadar/tassadar_archon.png"],
@@ -1918,33 +1901,35 @@ var tassadar = {
 	],
 	"type":"Support"
 };
-var tyrael = {
+
+var liming = {
 	"heroic1":[
-		["url","assets/abilities/tyrael/tyrael_judgment.png"],
-		["abilityName","Judgment"],
-		["abilityDesc","Charge the target, dealing moderate damage and stunning them for 1.5 seconds. Nearby enemies are knocked away and take moderate damage."]
+		["url","assets/abilities/li-ming/li-ming_disintegrate.png"],
+		["abilityName","Disintegrate"],
+		["abilityDesc","Channel a powerful beam, dealing massive damage over 2.5 seconds to enemies caught in it. The direction of the beam changes with your cursor’s position."]
 	],
 	"heroic2":[
-		["url","assets/abilities/tyrael/tyrael_sanctification.png"],
-		["abilityName","Sanctification"],
-		["abilityDesc","While channeling, Tyrael makes all nearby allied Heroes invulnerable and unstoppable. Lasts 3 seconds.  Does not affect Tyrael."]
+		["url","assets/abilities/li-ming/li-ming_waveOfForce.png"],
+		["abilityName","Wave of Force"],
+		["abilityDesc","Knock away all enemies from an area and deal heavy damage."]
 	],
 	"q":[
-		["url","assets/abilities/tyrael/tyrael_elDruinsMight.png"],
-		["abilityName","El'Druin's Might"],
-		["abilityDesc","Deals moderate damage to enemies within target area, slowing them by 25%. Reactivating will teleport you to the blade and slow nearby enemies by 25%."]
+		["url","assets/abilities/li-ming/li-ming_magicMissiles.png"],
+		["abilityName","Magic Missiles"],
+		["abilityDesc","Fire three missiles toward an area, each dealing heavy damage to the first enemy hit."]
 	],
 	"w":[
-		["url","assets/abilities/tyrael/tyrael_righteousness.png"],
-		["abilityName","Righteousness"],
-		["abilityDesc","Grants massive Shields to you and strong Shields to nearby allies. Lasts 4 seconds."]
+		["url","assets/abilities/li-ming/li-ming_arcaneOrb.png"],
+		["abilityName","Arcane Orb"],
+		["abilityDesc","Fire an orb that powers up as it travels, dealing heavy damage to the first enemy hit. The further the orb travels, the harder it hits—up to massive damage at maximum range."]
 	],
 	"e":[
-		["url","assets/abilities/tyrael/tyrael_smite.png"],
-		["abilityName","Smite"],
-		["abilityDesc","Rake target area for moderate damage. Allies moving through the targeted area gain 25% increased Movement Speed for 2 seconds."]
+		["url","assets/abilities/li-ming/li-ming_teleport.png"],
+		["abilityName","Teleport"],
+		["abilityDesc","Teleport a short distance instantly."]
 	],
 	"trait":[
+<<<<<<< HEAD
 		["url","assets/abilities/tyrael/tyrael_archangelsWrath.png"],
 		["abilityName","Archangel's Wrath"],
 		["abilityDesc","When you die, become invulnerable and explode for massive damage after 3.5 seconds."]
@@ -2083,3 +2068,13 @@ var zeratul = {
 	],
 	"type":"Assassin"
 };
+=======
+		["url","assets/abilities/li-ming/li-ming_criticalMass.png"],
+		["abilityName","Critical Mass"],
+		["abilityDesc","Getting a Takedown will refresh the cooldown on all of your Abilities."]
+	],
+	"type":"Assassin"
+};
+
+
+>>>>>>> parent of 164ebe2... Added jar and bash files, updated heroes.js
