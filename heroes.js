@@ -8,8 +8,9 @@ $(document).ready(function ( ) {
 });
 
 var currWeekDate = "Sept 27 - Oct 4";
-var nextWeekDate = "Apr 26 - May 3";
+var nextWeekDate = "Sept 20 - 27";
 var heroesArr = ["Li Li","ETC","Jaina","Sylvanas","The Butcher","Artanis","Rehgar","Diablo","Chromie","Zeratul"];
+
 
 function mapHeroes(){
 	for (i=0;i<heroesArr.length;i++){
@@ -1276,7 +1277,7 @@ var brightwing = {
 };
 var lili = {
 	"heroic1":[
-		["url","assets/abilities/lili/lili_jugof1,000Cups.png"],
+		["url","assets/abilities/lili/lili_jugOf1000Cups.png"],
 		["abilityName","Jug of 1,000 Cups"],
 		["abilityDesc","Rapidly tosses brew to the most injured nearby allies, prioritizing Heroes, restoring a massive amount of Health over 6 seconds."]
 	],
