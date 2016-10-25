@@ -7,9 +7,9 @@ $(document).ready(function ( ) {
 	mapHeroes();
 });
 
-var currWeekDate = "";
+var currWeekDate = "Oct 25 - Nov 1";
 var nextWeekDate = "Sept 20 - 27";
-var heroesArr = [
+var heroesArr = ["Raynor","Muradin","Xul","Uther","Kharazim","Johanna","Jaina","Greymane","Sgt. Hammer","Nova"];
 
 
 function mapHeroes(){
