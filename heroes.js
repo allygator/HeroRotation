@@ -24,6 +24,7 @@ function mapHeroes(){
 		value = value.replace(/'/g, '');
 		value = value.replace(/-/g, '');
         value = value.replace(' ', '');
+        value = value.replace('.', '');
 		value = value.toLowerCase();
 		$(selector).attr('id',value);
 	}
@@ -527,12 +528,12 @@ var liming = {
 };
 var greymane = {
 	"heroic1":[
-		["url","assets/abilities/greymane/greymane_gofortheThroat.png"],
+		["url","assets/abilities/greymane/greymane_goForTheThroat.png"],
 		["abilityName","Go for the Throat"],
 		["abilityDesc","Leap at an enemy Hero and shapeshift into a Worgen, slashing 3 times for massive total damage. If this kills them, this ability can be used a second time within 10 seconds for free."]
 	],
 	"heroic2":[
-		["url","assets/abilities/greymane/greymane_markedfortheKill.png"],
+		["url","assets/abilities/greymane/greymane_markedForTheKill.png"],
 		["abilityName","Marked for the Kill"],
 		["abilityDesc","Shapeshift into a Human and fire a shot hitting the first enemy Hero for moderate damage. For 5 seconds, they are Vulnerable, taking 25% more damage, and you can re-activate this to leap at them and shapeshift into a Worgen."]
 	],
@@ -552,7 +553,7 @@ var greymane = {
 		["abilityDesc","Shapeshift into a Worgen and leap at an enemy dealing heavy damage."]
 	],
 	"trait":[
-		["url","assets/abilities/greymane/greymane_curseoftheWorgen.png"],
+		["url","assets/abilities/greymane/greymane_curseOfTheWorgen.png"],
 		["abilityName","Curse of the Worgen"],
 		["abilityDesc","Use certain Abilities to shift between a Human and a Worgen. While Human, your Basic Attack is ranged. While Worgen, your Basic Attack is melee but deals 40% more damage."]
 	],
@@ -1645,12 +1646,12 @@ var muradin = {
 		["abilityDesc","Stun target enemy Hero, and wind up a punch dealing massive damage and knocking the target back, hitting enemies in the way for moderate damage and knocking them aside."]
 	],
 	"q":[
-		["url","assets/abilities/muradin/muradin_stormBolt.png"],
+		["url","assets/abilities/muradin/muradin_stormbolt.png"],
 		["abilityName","Storm Bolt"],
 		["abilityDesc","Throw a hammer, dealing moderate damage to the first enemy hit and stunning it for 1.5 seconds."]
 	],
 	"w":[
-		["url","assets/abilities/muradin/muradin_thunderClap.png"],
+		["url","assets/abilities/muradin/muradin_thunderclap.png"],
 		["abilityName","Thunder Clap"],
 		["abilityDesc","Deals moderate damage and slows enemies by 25% for 2.5 seconds."]
 	],
@@ -1985,7 +1986,7 @@ var uther = {
 		["abilityDesc","Heal all allies in a line for a large amount of Health, dealing moderate damage to enemies."]
 	],
 	"e":[
-		["url","assets/abilities/uther/uther_hammerofJustice.png"],
+		["url","assets/abilities/uther/uther_hammerOfJustice.png"],
 		["abilityName","Hammer of Justice"],
 		["abilityDesc","Deals moderate damage and stuns the target for 1 second."]
 	],
