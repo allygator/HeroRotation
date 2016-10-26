@@ -750,7 +750,7 @@ var rexxar = {
 };
 var kharazim = {
 	"heroic1":[
-		["url","assets/abilities/kharazim/kharazim_seven-SidedStrike.png"],
+		["url","assets/abilities/kharazim/kharazim_sevenSidedStrike.png"],
 		["abilityName","Seven-Sided Strike"],
 		["abilityDesc","Become Invulnerable while striking the highest health nearby enemy hero for 7% of their maximum health up to 7 times."]
 	],
@@ -765,7 +765,7 @@ var kharazim = {
 		["abilityDesc","Jump to target ally or enemy. Enemy targets are hit with a Basic Attack. 2 charges."]
 	],
 	"w":[
-		["url","assets/abilities/kharazim/kharazim_breathofHeaven.png"],
+		["url","assets/abilities/kharazim/kharazim_breathOfHeaven.png"],
 		["abilityName","Breath of Heaven"],
 		["abilityDesc","Heal yourself and nearby allies for a moderate amount and give 10% movement speed for 3 seconds."]
 	],
@@ -1727,7 +1727,7 @@ var nova = {
 		["abilityDesc","Creates a Decoy for 5 seconds that appears to attack enemies.   Using this Ability does not break cloak."]
 	],
 	"trait":[
-		["url","assets/abilities/nova/nova_permanentCloak,Sniper.png"],
+		["url","assets/abilities/nova/nova_permanentCloakSniper.png"],
 		["abilityName","Permanent Cloak, Sniper"],
 		["abilityDesc","Cloak when out of combat for 3 seconds. Taking damage, attacking, or channeling reveals you.  Basic Attack range is 20% further than other ranged Heroes, and you see 10% further than other Heroes."]
 	],
