@@ -37,7 +37,7 @@ function populateAbilities(name){
 	populateH1(name);
 	populateH2(name);
 	populateT(name);
-	
+
 	//populateClass(name.type)
 }
 
@@ -526,63 +526,63 @@ var liming = {
 	],
 	"type":"Assassin"
 };
-var greymane = {
-	"heroic1":[
-		["url","assets/abilities/greymane/greymane_gofortheThroat.png"],
-		["abilityName","Go for the Throat"],
-		["abilityDesc","Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 damage. If this kills them, the Ability can be used a second time within 10 seconds for free."]
-	],
-	"heroic2":[
-		["url","assets/abilities/greymane/greymane_cursedBullet.png"],
-		["abilityName","Cursed Bullet"],
-		["abilityDesc","Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage. Does not affect Vehicles."]
-	],
-	"q":[
-		["url","assets/abilities/greymane/greymane_gilneanCocktail.png"],
-		["abilityName","Gilnean Cocktail"],
-		["abilityDesc","Hurl a flask that deals 59 damage to the first enemy hit and explodes for 236 damage to enemies in a cone behind them. Worgen: Razor Swipe Swipe forward, damaging enemies hit."]
-	],
-	"w":[
-		["url","assets/abilities/greymane/greymane_innerBeast.png"],
-		["abilityName","Inner Beast"],
-		["abilityDesc","Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration, and reduce the cooldown of Inner Beast by 0.5 seconds."]
-	],
-	"e":[
-		["url","assets/abilities/greymane/greymane_darkflight.png"],
-		["abilityName","Darkflight"],
-		["abilityDesc","Shapeshift into a Worgen and leap at an enemy dealing 88 damage. Worgen: Disengage Roll away and shapeshift into a Human."]
-	],
-	"trait":[
-		["url","assets/abilities/greymane/greymane_curseoftheWorgen.png"],
-		["abilityName","Curse of the Worgen"],
-		["abilityDesc","Greymane can use certain Abilities to shapeshift between a Human and a Worgen. While Human, Greymane's Basic Attacks are ranged. While Worgen, Greymane gains 10 Armor, and his Basic Attacks become melee but deal 40% more damage."]
-	],
-		["url","assets/abilities/greymane/greymane_gofortheThroat.png"],
-		["abilityName","Go for the Throat"],
-		["abilityDesc","Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 damage. If this kills them, the Ability can be used a second time within 10 seconds for free."]
-	],
-		["url","assets/abilities/greymane/greymane_cursedBullet.png"],
-		["abilityName","Cursed Bullet"],
-		["abilityDesc","Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage. Does not affect Vehicles."]
-	],
-		["url","assets/abilities/greymane/greymane_razorSwipe.png"],
-		["abilityName","Razor Swipe"],
-		["abilityDesc","Swipe in the targeted direction, dealing 135 damage to enemies hit. Human: Gilnean Cocktail Damage the first enemy hit and deal heavy damage behind them."]
-	],
-		["url","assets/abilities/greymane/greymane_innerBeast.png"],
-		["abilityName","Inner Beast"],
-		["abilityDesc","Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration, and reduce the cooldown of Inner Beast by 0.5 seconds."]
-	],
-		["url","assets/abilities/greymane/greymane_disengage.png"],
-		["abilityName","Disengage"],
-		["abilityDesc","Roll away and shapeshift into a Human. Human: Darkflight Leap at an enemy and shapeshift into a Worgen."]
-	],
-		["url","assets/abilities/greymane/greymane_curseoftheWorgen.png"],
-		["abilityName","Curse of the Worgen"],
-		["abilityDesc","Greymane can use certain Abilities to shapeshift between a Human and a Worgen. While Human, Greymane's Basic Attacks are ranged. While Worgen, Greymane gains 10 Armor, and his Basic Attacks become melee but deal 40% more damage."]
-	],
-	"type":"Assassin"
-};
+// var greymane = {
+// 	"heroic1":[
+// 		["url","assets/abilities/greymane/greymane_gofortheThroat.png"],
+// 		["abilityName","Go for the Throat"],
+// 		["abilityDesc","Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 damage. If this kills them, the Ability can be used a second time within 10 seconds for free."]
+// 	],
+// 	"heroic2":[
+// 		["url","assets/abilities/greymane/greymane_cursedBullet.png"],
+// 		["abilityName","Cursed Bullet"],
+// 		["abilityDesc","Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage. Does not affect Vehicles."]
+// 	],
+// 	"q":[
+// 		["url","assets/abilities/greymane/greymane_gilneanCocktail.png"],
+// 		["abilityName","Gilnean Cocktail"],
+// 		["abilityDesc","Hurl a flask that deals 59 damage to the first enemy hit and explodes for 236 damage to enemies in a cone behind them. Worgen: Razor Swipe Swipe forward, damaging enemies hit."]
+// 	],
+// 	"w":[
+// 		["url","assets/abilities/greymane/greymane_innerBeast.png"],
+// 		["abilityName","Inner Beast"],
+// 		["abilityDesc","Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration, and reduce the cooldown of Inner Beast by 0.5 seconds."]
+// 	],
+// 	"e":[
+// 		["url","assets/abilities/greymane/greymane_darkflight.png"],
+// 		["abilityName","Darkflight"],
+// 		["abilityDesc","Shapeshift into a Worgen and leap at an enemy dealing 88 damage. Worgen: Disengage Roll away and shapeshift into a Human."]
+// 	],
+// 	"trait":[
+// 		["url","assets/abilities/greymane/greymane_curseoftheWorgen.png"],
+// 		["abilityName","Curse of the Worgen"],
+// 		["abilityDesc","Greymane can use certain Abilities to shapeshift between a Human and a Worgen. While Human, Greymane's Basic Attacks are ranged. While Worgen, Greymane gains 10 Armor, and his Basic Attacks become melee but deal 40% more damage."]
+// 	],
+// 		["url","assets/abilities/greymane/greymane_gofortheThroat.png"],
+// 		["abilityName","Go for the Throat"],
+// 		["abilityDesc","Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 damage. If this kills them, the Ability can be used a second time within 10 seconds for free."]
+// 	],
+// 		["url","assets/abilities/greymane/greymane_cursedBullet.png"],
+// 		["abilityName","Cursed Bullet"],
+// 		["abilityDesc","Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage. Does not affect Vehicles."]
+// 	],
+// 		["url","assets/abilities/greymane/greymane_razorSwipe.png"],
+// 		["abilityName","Razor Swipe"],
+// 		["abilityDesc","Swipe in the targeted direction, dealing 135 damage to enemies hit. Human: Gilnean Cocktail Damage the first enemy hit and deal heavy damage behind them."]
+// 	],
+// 		["url","assets/abilities/greymane/greymane_innerBeast.png"],
+// 		["abilityName","Inner Beast"],
+// 		["abilityDesc","Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration, and reduce the cooldown of Inner Beast by 0.5 seconds."]
+// 	],
+// 		["url","assets/abilities/greymane/greymane_disengage.png"],
+// 		["abilityName","Disengage"],
+// 		["abilityDesc","Roll away and shapeshift into a Human. Human: Darkflight Leap at an enemy and shapeshift into a Worgen."]
+// 	],
+// 		["url","assets/abilities/greymane/greymane_curseoftheWorgen.png"],
+// 		["abilityName","Curse of the Worgen"],
+// 		["abilityDesc","Greymane can use certain Abilities to shapeshift between a Human and a Worgen. While Human, Greymane's Basic Attacks are ranged. While Worgen, Greymane gains 10 Armor, and his Basic Attacks become melee but deal 40% more damage."]
+// 	],
+// 	"type":"Assassin"
+// };
 var lunara = {
 	"heroic1":[
 		["url","assets/abilities/lunara/lunara_thornwoodVine.png"],
@@ -616,63 +616,63 @@ var lunara = {
 	],
 	"type":"Assassin"
 };
-var chogall = {
-	"heroic1":[
-		["url","assets/abilities/chogall/chogall_hammerofTwilight.png"],
-		["abilityName","Hammer of Twilight"],
-		["abilityDesc","Activate to swing the Hammer of Twilight, dealing 150 damage, pushing enemies away, and Stunning them for 0.75 seconds. Passive: Cho's Basic Attacks deal 25% increased damage."]
-	],
-	"heroic2":[
-		["url","assets/abilities/chogall/chogall_upheaval.png"],
-		["abilityName","Upheaval"],
-		["abilityDesc","After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 damage."]
-	],
-	"q":[
-		["url","assets/abilities/chogall/chogall_surgingFist.png"],
-		["abilityName","Surging Fist"],
-		["abilityDesc","Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged."]
-	],
-	"w":[
-		["url","assets/abilities/chogall/chogall_consumingBlaze.png"],
-		["abilityName","Consuming Blaze"],
-		["abilityDesc","Ignite nearby enemies, dealing 150 damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 when an enemy is Ignited."]
-	],
-	"e":[
-		["url","assets/abilities/chogall/chogall_runeBomb.png"],
-		["abilityName","Rune Bomb"],
-		["abilityDesc","Roll a bomb dealing 91 damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 233 damage in an area."]
-	],
-	"trait":[
-		["url","assets/abilities/chogall/chogall_ogreHide.png"],
-		["abilityName","Ogre Hide"],
-		["abilityDesc","Activate to gain 25 Armor, but reduce Gall's damage by 25%."]
-	],
-		["url","assets/abilities/chogall/chogall_shadowBoltVolley.png"],
-		["abilityName","Shadow Bolt Volley"],
-		["abilityDesc","After 1 second, unleash 20 Shadow Bolts over 4 seconds, each dealing 87 damage to the first target hit. The bolts fire towards your mouse."]
-	],
-		["url","assets/abilities/chogall/chogall_twistingNether.png"],
-		["abilityName","Twisting Nether"],
-		["abilityDesc","After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 damage."]
-	],
-		["url","assets/abilities/chogall/chogall_shadowflame.png"],
-		["abilityName","Shadowflame"],
-		["abilityDesc","Deal 135 damage to enemies in the area."]
-	],
-		["url","assets/abilities/chogall/chogall_dreadOrb.png"],
-		["abilityName","Dread Orb"],
-		["abilityDesc","Throw a bomb that will bounce three times, dealing 126 damage to enemies."]
-	],
-		["url","assets/abilities/chogall/chogall_runicBlast.png"],
-		["abilityName","Runic Blast"],
-		["abilityDesc","Detonate Cho's Rune Bomb, dealing 233 damage around it."]
-	],
-		["url","assets/abilities/chogall/chogall_ogreRage.png"],
-		["abilityName","Ogre Rage"],
-		["abilityDesc","Activate to increase Gall's damage by 25%, but reduce Cho's Armor by 25. Passive: Gall is permanently immune to Stun and Silence effects."]
-	],
-	"type":"Assassin"
-};
+// var chogall = {
+// 	"heroic1":[
+// 		["url","assets/abilities/chogall/chogall_hammerofTwilight.png"],
+// 		["abilityName","Hammer of Twilight"],
+// 		["abilityDesc","Activate to swing the Hammer of Twilight, dealing 150 damage, pushing enemies away, and Stunning them for 0.75 seconds. Passive: Cho's Basic Attacks deal 25% increased damage."]
+// 	],
+// 	"heroic2":[
+// 		["url","assets/abilities/chogall/chogall_upheaval.png"],
+// 		["abilityName","Upheaval"],
+// 		["abilityDesc","After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 damage."]
+// 	],
+// 	"q":[
+// 		["url","assets/abilities/chogall/chogall_surgingFist.png"],
+// 		["abilityName","Surging Fist"],
+// 		["abilityDesc","Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 damage. The dash range increases by up to 250%, depending on how long it is charged."]
+// 	],
+// 	"w":[
+// 		["url","assets/abilities/chogall/chogall_consumingBlaze.png"],
+// 		["abilityName","Consuming Blaze"],
+// 		["abilityDesc","Ignite nearby enemies, dealing 150 damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 when an enemy is Ignited."]
+// 	],
+// 	"e":[
+// 		["url","assets/abilities/chogall/chogall_runeBomb.png"],
+// 		["abilityName","Rune Bomb"],
+// 		["abilityDesc","Roll a bomb dealing 91 damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 233 damage in an area."]
+// 	],
+// 	"trait":[
+// 		["url","assets/abilities/chogall/chogall_ogreHide.png"],
+// 		["abilityName","Ogre Hide"],
+// 		["abilityDesc","Activate to gain 25 Armor, but reduce Gall's damage by 25%."]
+// 	],
+// 		["url","assets/abilities/chogall/chogall_shadowBoltVolley.png"],
+// 		["abilityName","Shadow Bolt Volley"],
+// 		["abilityDesc","After 1 second, unleash 20 Shadow Bolts over 4 seconds, each dealing 87 damage to the first target hit. The bolts fire towards your mouse."]
+// 	],
+// 		["url","assets/abilities/chogall/chogall_twistingNether.png"],
+// 		["abilityName","Twisting Nether"],
+// 		["abilityDesc","After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 damage."]
+// 	],
+// 		["url","assets/abilities/chogall/chogall_shadowflame.png"],
+// 		["abilityName","Shadowflame"],
+// 		["abilityDesc","Deal 135 damage to enemies in the area."]
+// 	],
+// 		["url","assets/abilities/chogall/chogall_dreadOrb.png"],
+// 		["abilityName","Dread Orb"],
+// 		["abilityDesc","Throw a bomb that will bounce three times, dealing 126 damage to enemies."]
+// 	],
+// 		["url","assets/abilities/chogall/chogall_runicBlast.png"],
+// 		["abilityName","Runic Blast"],
+// 		["abilityDesc","Detonate Cho's Rune Bomb, dealing 233 damage around it."]
+// 	],
+// 		["url","assets/abilities/chogall/chogall_ogreRage.png"],
+// 		["abilityName","Ogre Rage"],
+// 		["abilityDesc","Activate to increase Gall's damage by 25%, but reduce Cho's Armor by 25. Passive: Gall is permanently immune to Stun and Silence effects."]
+// 	],
+// 	"type":"Assassin"
+// };
 var artanis = {
 	"heroic1":[
 		["url","assets/abilities/artanis/artanis_suppressionPulse.png"],
