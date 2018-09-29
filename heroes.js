@@ -9,7 +9,7 @@ $(document).ready(function ( ) {
 
 var currWeekDate = "Oct 25 - Nov 1";
 var nextWeekDate = "Sept 20 - 27";
-var heroesArr = ["Raynor","Muradin","Xul","Uther","Kharazim","Johanna","Jaina","Greymane","Sgt. Hammer","Nova"];
+var heroesArr = ["Raynor","Muradin","Xul","Uther","Kharazim","Johanna","Jaina","Sylvanas","Sgt. Hammer","Nova"];
 
 
 function mapHeroes(){
